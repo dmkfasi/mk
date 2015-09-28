@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -72,8 +72,8 @@
 <library>
 <description>Components designed for Mortal Kombat Y-Unit Sound Board &lt;b&gt;A-14732-40009&lt;/b&gt;</description>
 <packages>
-<package name="6809E">
-<description>Motorola 6809E DIP40</description>
+<package name="DIP40">
+<description>&lt;b&gt;Dual In Line Package&lt;/b&gt; 40 pin</description>
 <wire x1="25.4" y1="6.731" x2="-25.4" y2="6.731" width="0.1524" layer="21"/>
 <wire x1="-25.4" y1="-6.731" x2="25.4" y2="-6.731" width="0.1524" layer="21"/>
 <wire x1="25.4" y1="6.731" x2="25.4" y2="-6.731" width="0.1524" layer="21"/>
@@ -123,8 +123,8 @@
 <text x="-25.908" y="-6.604" size="1.778" layer="25" rot="R90">&gt;NAME</text>
 <text x="-17.145" y="-1.016" size="1.778" layer="27">&gt;VALUE</text>
 </package>
-<package name="MS6264L">
-<description>Hitachi MS6264L DIP28</description>
+<package name="DIP28">
+<description>&lt;b&gt;Dual In Line Package&lt;/b&gt; 28 pin</description>
 <wire x1="-17.653" y1="-1.27" x2="-17.653" y2="-6.604" width="0.1524" layer="21"/>
 <wire x1="-17.653" y1="1.27" x2="-17.653" y2="-1.27" width="0.1524" layer="21" curve="-180"/>
 <wire x1="17.653" y1="-6.604" x2="17.653" y2="6.604" width="0.1524" layer="21"/>
@@ -162,8 +162,8 @@
 <text x="-17.78" y="-6.35" size="1.778" layer="25" ratio="10" rot="R90">&gt;NAME</text>
 <text x="-14.605" y="-0.9398" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="16L8">
-<description>PLD DIP20</description>
+<package name="DIP20N">
+<description>&lt;b&gt;Dual In Line Package&lt;/b&gt; 20 pin narrow</description>
 <wire x1="12.7" y1="2.921" x2="-12.7" y2="2.921" width="0.1524" layer="21"/>
 <wire x1="-12.7" y1="-2.921" x2="12.7" y2="-2.921" width="0.1524" layer="21"/>
 <wire x1="12.7" y1="2.921" x2="12.7" y2="-2.921" width="0.1524" layer="21"/>
@@ -193,8 +193,8 @@
 <text x="-13.081" y="-3.048" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="-9.779" y="-0.381" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="27C040">
-<description>EPROM memory chip  DIP32</description>
+<package name="DIP32">
+<description>&lt;b&gt;Dual In Line Package&lt;/b&gt; 32 pin</description>
 <wire x1="20.32" y1="6.731" x2="-20.32" y2="6.731" width="0.1524" layer="21"/>
 <wire x1="-20.32" y1="-6.731" x2="20.32" y2="-6.731" width="0.1524" layer="21"/>
 <wire x1="20.32" y1="6.731" x2="20.32" y2="-6.731" width="0.1524" layer="21"/>
@@ -236,8 +236,8 @@
 <text x="-20.701" y="-6.604" size="1.778" layer="25" rot="R90">&gt;NAME</text>
 <text x="-16.891" y="-0.889" size="1.778" layer="27">&gt;VALUE</text>
 </package>
-<package name="YM2151">
-<description>Yamaha 2151 DIP24</description>
+<package name="DIP24">
+<description>&lt;b&gt;Dual In Line Package&lt;/b&gt; 24 pin</description>
 <wire x1="-15.113" y1="-1.27" x2="-15.113" y2="-6.604" width="0.1524" layer="21"/>
 <wire x1="-15.113" y1="1.27" x2="-15.113" y2="-1.27" width="0.1524" layer="21" curve="-180"/>
 <wire x1="15.113" y1="-6.604" x2="15.113" y2="6.604" width="0.1524" layer="21"/>
@@ -271,8 +271,8 @@
 <text x="-15.621" y="-6.35" size="1.778" layer="25" ratio="10" rot="R90">&gt;NAME</text>
 <text x="-12.065" y="-0.889" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="YM3012">
-<description>&lt;b&gt;Dual In Line Package&lt;/b&gt;</description>
+<package name="DIP16N">
+<description>&lt;b&gt;Dual In Line Package&lt;/b&gt; 16 pin narrow</description>
 <wire x1="10.16" y1="2.921" x2="-10.16" y2="2.921" width="0.1524" layer="21"/>
 <wire x1="-10.16" y1="-2.921" x2="10.16" y2="-2.921" width="0.1524" layer="21"/>
 <wire x1="10.16" y1="2.921" x2="10.16" y2="-2.921" width="0.1524" layer="21"/>
@@ -298,8 +298,8 @@
 <text x="-10.541" y="-2.921" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
 <text x="-7.493" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="OKI6295">
-<description>OKI MSM6295 QFP44</description>
+<package name="QFP44">
+<description>&lt;b&gt;Quad Flat Package&lt;/b&gt; 44 pin</description>
 <wire x1="-5.25" y1="4.25" x2="-4.75" y2="4.75" width="0.1524" layer="21"/>
 <wire x1="-4.75" y1="4.75" x2="4.75" y2="4.75" width="0.1524" layer="21"/>
 <wire x1="4.75" y1="4.75" x2="5.25" y2="4.25" width="0.1524" layer="21"/>
@@ -417,8 +417,8 @@
 <rectangle x1="-7.25" y1="3.05" x2="-5.25" y2="3.35" layer="51"/>
 <rectangle x1="-7.25" y1="3.849" x2="-5.25" y2="4.149" layer="51"/>
 </package>
-<package name="MC3340">
-<description>&lt;b&gt;Dual In Line Package&lt;/b&gt;</description>
+<package name="DIP8N">
+<description>&lt;b&gt;Dual In Line Package&lt;/b&gt; 8 pin narrow</description>
 <wire x1="5.08" y1="2.921" x2="-5.08" y2="2.921" width="0.1524" layer="21"/>
 <wire x1="-5.08" y1="-2.921" x2="5.08" y2="-2.921" width="0.1524" layer="21"/>
 <wire x1="5.08" y1="2.921" x2="5.08" y2="-2.921" width="0.1524" layer="21"/>
@@ -436,9 +436,8 @@
 <text x="-5.334" y="-2.921" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
 <text x="-3.556" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="7809-D2PAK">
-<description>&lt;b&gt;D2PACK&lt;/b&gt;&lt;p&gt;
-INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
+<package name="D2PAK">
+<description>&lt;b&gt;D2PACK&lt;/b&gt; INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
 <wire x1="-5.1308" y1="-4.0894" x2="5.1308" y2="-4.0894" width="0.254" layer="21"/>
 <wire x1="5.1308" y1="-4.0894" x2="5.1308" y2="4.445" width="0.254" layer="51"/>
 <wire x1="5.1308" y1="4.445" x2="3.1242" y2="5.8166" width="0.254" layer="51"/>
@@ -462,8 +461,8 @@ INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
 <rectangle x1="1.8288" y1="-6.731" x2="3.2512" y2="-4.2418" layer="21"/>
 <rectangle x1="-0.7112" y1="-6.731" x2="0.7112" y2="-4.2418" layer="21"/>
 </package>
-<package name="7809-TO220V">
-<description>&lt;b&gt;TO 200 vertical&lt;/b&gt;</description>
+<package name="TO220V">
+<description>&lt;b&gt;TO-220&lt;/b&gt; vertical orientation</description>
 <wire x1="5.08" y1="-1.143" x2="4.953" y2="-4.064" width="0.127" layer="21"/>
 <wire x1="4.699" y1="-4.318" x2="4.953" y2="-4.064" width="0.127" layer="21"/>
 <wire x1="4.699" y1="-4.318" x2="-4.699" y2="-4.318" width="0.127" layer="21"/>
@@ -488,7 +487,7 @@ INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
 <rectangle x1="1.651" y1="-1.27" x2="3.429" y2="-0.762" layer="51"/>
 </package>
 <package name="ZIP15">
-<description>&lt;b&gt;Zigzag In Line&lt;/b&gt;</description>
+<description>&lt;b&gt;Zig-zag In Line&lt;/b&gt; 15 pin</description>
 <wire x1="-10.795" y1="-2.54" x2="-11.43" y2="-0.3175" width="0.1524" layer="21"/>
 <wire x1="-11.43" y1="0.3175" x2="-11.43" y2="-0.3175" width="0.1524" layer="21"/>
 <wire x1="-10.795" y1="2.54" x2="-11.43" y2="0.3175" width="0.1524" layer="21"/>
@@ -520,7 +519,7 @@ INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
 <text x="-2.54" y="2.921" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
 <package name="SO16">
-<description>&lt;b&gt;Small Outline package&lt;/b&gt; 150 mil</description>
+<description>&lt;b&gt;Small Outline package&lt;/b&gt; 16 pin 150 mil</description>
 <wire x1="4.699" y1="1.9558" x2="-4.699" y2="1.9558" width="0.1524" layer="21"/>
 <wire x1="4.699" y1="-1.9558" x2="5.08" y2="-1.5748" width="0.1524" layer="21" curve="90"/>
 <wire x1="-5.08" y1="1.5748" x2="-4.699" y2="1.9558" width="0.1524" layer="21" curve="-90"/>
@@ -940,7 +939,7 @@ INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
 <gate name="G$1" symbol="6809E" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="6809E">
+<device name="" package="DIP40">
 <connects>
 <connect gate="G$1" pin="!FIRQ" pad="4"/>
 <connect gate="G$1" pin="!HALT" pad="40"/>
@@ -995,7 +994,7 @@ INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
 <gate name="G$1" symbol="MS6264L" x="0" y="2.54"/>
 </gates>
 <devices>
-<device name="" package="MS6264L">
+<device name="" package="DIP28">
 <connects>
 <connect gate="G$1" pin="!CS1" pad="20"/>
 <connect gate="G$1" pin="!OE" pad="22"/>
@@ -1037,7 +1036,7 @@ INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
 <gate name="G$1" symbol="16L8" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="16L8">
+<device name="" package="DIP20N">
 <connects>
 <connect gate="G$1" pin="1-IN" pad="1"/>
 <connect gate="G$1" pin="11-IN" pad="11"/>
@@ -1072,7 +1071,7 @@ INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
 <gate name="G$1" symbol="27C040" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="27C040">
+<device name="" package="DIP32">
 <connects>
 <connect gate="G$1" pin="!CS" pad="22"/>
 <connect gate="G$1" pin="!OE" pad="24"/>
@@ -1119,7 +1118,7 @@ INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
 <gate name="G$1" symbol="YM2151" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="YM2151">
+<device name="" package="DIP24">
 <connects>
 <connect gate="G$1" pin="!CS" pad="7"/>
 <connect gate="G$1" pin="!IRQ" pad="2"/>
@@ -1158,7 +1157,7 @@ INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
 <gate name="G$1" symbol="YM3012" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="YM3012">
+<device name="" package="DIP16N">
 <connects>
 <connect gate="G$1" pin="!RESET" pad="7"/>
 <connect gate="G$1" pin="AGND-16" pad="16"/>
@@ -1189,7 +1188,7 @@ INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
 <gate name="G$1" symbol="OKI6295" x="0" y="15.24"/>
 </gates>
 <devices>
-<device name="" package="OKI6295">
+<device name="" package="QFP44">
 <connects>
 <connect gate="G$1" pin="!CS" pad="4"/>
 <connect gate="G$1" pin="!RD" pad="2"/>
@@ -1248,7 +1247,7 @@ INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
 <gate name="G$1" symbol="7809" x="0" y="0"/>
 </gates>
 <devices>
-<device name="D2PAK" package="7809-D2PAK">
+<device name="D2PAK" package="D2PAK">
 <connects>
 <connect gate="G$1" pin="IN" pad="1"/>
 <connect gate="G$1" pin="OUT" pad="3"/>
@@ -1258,7 +1257,7 @@ INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="TO220" package="7809-TO220V">
+<device name="TO220" package="TO220V">
 <connects>
 <connect gate="G$1" pin="IN" pad="1"/>
 <connect gate="G$1" pin="OUT" pad="3"/>
@@ -1276,7 +1275,7 @@ INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
 <gate name="G$1" symbol="MC3340" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="MC3340">
+<device name="" package="DIP8N">
 <connects>
 <connect gate="G$1" pin="CNTL" pad="2"/>
 <connect gate="G$1" pin="GND" pad="3"/>
