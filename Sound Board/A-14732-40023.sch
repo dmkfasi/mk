@@ -11957,6 +11957,27 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pad name="11" x="15.24" y="0" drill="0.8128" shape="long" rot="R90"/>
 <pad name="12" x="17.78" y="0" drill="0.8128" shape="long" rot="R90"/>
 </package>
+<package name="SOT23">
+<description>&lt;b&gt;SMALL OUTLINE TRANSISTOR&lt;/b&gt;&lt;p&gt;
+reflow soldering</description>
+<wire x1="-1.973" y1="1.983" x2="1.973" y2="1.983" width="0.0508" layer="39"/>
+<wire x1="1.973" y1="-1.983" x2="-1.973" y2="-1.983" width="0.0508" layer="39"/>
+<wire x1="-1.973" y1="-1.983" x2="-1.973" y2="1.983" width="0.0508" layer="39"/>
+<wire x1="1.973" y1="1.983" x2="1.973" y2="-1.983" width="0.0508" layer="39"/>
+<wire x1="1.422" y1="0.66" x2="1.422" y2="-0.66" width="0.1524" layer="51"/>
+<wire x1="1.422" y1="-0.66" x2="-1.422" y2="-0.66" width="0.1524" layer="51"/>
+<wire x1="-1.422" y1="-0.66" x2="-1.422" y2="0.66" width="0.1524" layer="51"/>
+<wire x1="-1.422" y1="0.66" x2="1.422" y2="0.66" width="0.1524" layer="51"/>
+<smd name="3" x="0" y="1.1" dx="1" dy="1.4" layer="1"/>
+<smd name="2" x="0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
+<smd name="1" x="-0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
+<text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.2286" y1="0.7112" x2="0.2286" y2="1.2954" layer="51"/>
+<rectangle x1="0.7112" y1="-1.2954" x2="1.1684" y2="-0.7112" layer="51"/>
+<rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
+<rectangle x1="-0.5001" y1="-0.3" x2="0.5001" y2="0.3" layer="35"/>
+</package>
 </packages>
 <symbols>
 <symbol name="MB3731">
@@ -11980,6 +12001,23 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pin name="OUT(M)" x="22.86" y="25.4" length="middle" direction="pas" rot="R180"/>
 <pin name="BS-M" x="22.86" y="33.02" length="middle" direction="out" rot="R180"/>
 </symbol>
+<symbol name="1N5232">
+<description>This symbol is specially designed for the best fit onto official manual schematics</description>
+<wire x1="1.27" y1="-1.27" x2="0" y2="1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="0" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-1.27" x2="0" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.27" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="1.27" x2="1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="1.778" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="0.762" width="0.254" layer="94"/>
+<text x="2.54" y="0" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="A" x="0" y="-2.54" visible="off" length="point" direction="pas" rot="R90"/>
+<pin name="C" x="0" y="2.54" visible="off" length="point" direction="pas" rot="R270"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="1.27" width="0.1524" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="MB3731" prefix="U" uservalue="yes">
@@ -12002,6 +12040,23 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connect gate="G$1" pin="OUT(I)" pad="8"/>
 <connect gate="G$1" pin="OUT(M)" pad="10"/>
 <connect gate="G$1" pin="VCC" pad="11"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1N5232" prefix="CR">
+<description>Zener diode 5.6V 5%</description>
+<gates>
+<gate name="G$1" symbol="1N5232" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="C" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12412,7 +12467,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="VOLTAGE" value="16V"/>
 </part>
 <part name="R54" library="resistor" deviceset="R-US_" device="R1206" value="100K"/>
-<part name="R65" library="resistor" deviceset="R-US_" device="R1206" value="100K"/>
 <part name="U$28" library="SparkFun-Aesthetics" deviceset="AGND" device=""/>
 <part name="U$29" library="SparkFun-Aesthetics" deviceset="AGND" device=""/>
 <part name="R67" library="resistor" deviceset="R-US_" device="R1206" value="10K"/>
@@ -12590,6 +12644,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND3" library="supply2" deviceset="GND" device=""/>
 <part name="GND44" library="supply2" deviceset="GND" device=""/>
 <part name="U27" library="A-14732-40023" deviceset="MB3731" device=""/>
+<part name="CR2" library="A-14732-40023" deviceset="1N5232" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -16634,8 +16689,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="VALUE" x="147.32" y="177.8" size="1.778" layer="96"/>
 </instance>
 <instance part="R54" gate="G$1" x="139.7" y="190.5" rot="MR270"/>
-<instance part="R65" gate="G$1" x="134.62" y="175.26" rot="MR270"/>
-<instance part="U$28" gate="G$1" x="134.62" y="165.1"/>
+<instance part="U$28" gate="G$1" x="129.54" y="165.1"/>
 <instance part="U$29" gate="G$1" x="144.78" y="165.1"/>
 <instance part="R67" gate="G$1" x="162.56" y="198.12" rot="MR0"/>
 <instance part="C75" gate="G$1" x="180.34" y="185.42" smashed="yes" rot="R90">
@@ -16735,6 +16789,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="U$47" gate="G$1" x="274.32" y="200.66"/>
 <instance part="C65" gate="G$1" x="170.18" y="30.48" rot="MR180"/>
 <instance part="U27" gate="G$1" x="274.32" y="154.94"/>
+<instance part="CR2" gate="G$1" x="129.54" y="172.72"/>
 </instances>
 <busses>
 </busses>
@@ -16847,9 +16902,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="182.88" y1="38.1" x2="182.88" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R65" gate="G$1" pin="2"/>
 <pinref part="U$28" gate="G$1" pin="AGND"/>
-<wire x1="134.62" y1="170.18" x2="134.62" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="170.18" x2="129.54" y2="167.64" width="0.1524" layer="91"/>
+<pinref part="CR2" gate="G$1" pin="A"/>
 </segment>
 <segment>
 <pinref part="C73" gate="G$1" pin="-"/>
@@ -17149,20 +17204,20 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="121.92" y1="119.38" x2="121.92" y2="157.48" width="0.1524" layer="91"/>
 <junction x="121.92" y="157.48"/>
 <pinref part="U33" gate="C" pin="+IN"/>
-<wire x1="121.92" y1="182.88" x2="134.62" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="182.88" x2="129.54" y2="182.88" width="0.1524" layer="91"/>
 <junction x="121.92" y="182.88"/>
 <pinref part="R54" gate="G$1" pin="2"/>
-<wire x1="134.62" y1="182.88" x2="139.7" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="182.88" x2="139.7" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="182.88" x2="144.78" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="182.88" x2="157.48" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="185.42" x2="139.7" y2="182.88" width="0.1524" layer="91"/>
 <junction x="139.7" y="182.88"/>
-<pinref part="R65" gate="G$1" pin="1"/>
-<wire x1="134.62" y1="182.88" x2="134.62" y2="180.34" width="0.1524" layer="91"/>
-<junction x="134.62" y="182.88"/>
+<wire x1="129.54" y1="182.88" x2="129.54" y2="175.26" width="0.1524" layer="91"/>
+<junction x="129.54" y="182.88"/>
 <pinref part="C73" gate="G$1" pin="+"/>
 <wire x1="144.78" y1="182.88" x2="144.78" y2="180.34" width="0.1524" layer="91"/>
 <junction x="144.78" y="182.88"/>
+<pinref part="CR2" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="PCM-OUT" class="0">
