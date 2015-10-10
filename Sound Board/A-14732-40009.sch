@@ -18714,6 +18714,36 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <approved hash="101,1,198.12,45.72,U21A,O,,,,"/>
 <approved hash="101,1,198.12,58.42,U21B,O,,,,"/>
 <approved hash="101,1,198.12,71.12,U21E,O,,,,"/>
+<approved hash="104,2,10.16,15.24,U17P,VCC,5V,,,"/>
+<approved hash="104,1,259.08,40.64,U21P,VCC,5V,,,"/>
+<approved hash="104,1,259.08,35.56,U22P,VCC,5V,,,"/>
+<approved hash="104,1,259.08,30.48,U23P,VCC,5V,,,"/>
+<approved hash="104,1,259.08,15.24,U9P,VCC,5V,,,"/>
+<approved hash="104,1,259.08,50.8,U19P,VCC,5V,,,"/>
+<approved hash="104,1,259.08,45.72,U20P,VCC,5V,,,"/>
+<approved hash="104,1,259.08,20.32,U8P,VCC,5V,,,"/>
+<approved hash="104,1,259.08,25.4,U26P,VCC,5V,,,"/>
+<approved hash="104,1,259.08,55.88,U16P,VCC,5V,,,"/>
+<approved hash="104,1,228.6,99.06,U2,VSS,GND,,,"/>
+<approved hash="104,1,228.6,101.6,U2,VCC,5V,,,"/>
+<approved hash="104,2,119.38,154.94,U29P,V+,12V,,,"/>
+<approved hash="104,2,119.38,139.7,U29P,V-,AGND,,,"/>
+<approved hash="104,2,220.98,218.44,U15,VDD,5V,,,"/>
+<approved hash="104,2,218.44,162.56,U32P,V+,12V,,,"/>
+<approved hash="104,2,218.44,147.32,U32P,V-,AGND,,,"/>
+<approved hash="104,3,83.82,210.82,U33P,V+,12V,,,"/>
+<approved hash="104,3,83.82,195.58,U33P,V-,AGND,,,"/>
+<approved hash="104,3,182.88,114.3,U30,GND,AGND,,,"/>
+<approved hash="104,3,175.26,138.43,U30,VCC,+9V,,,"/>
+<approved hash="104,3,266.7,190.5,U31,VCC,12V,,,"/>
+<approved hash="104,3,266.7,157.48,U31,GND,AGND,,,"/>
+<approved hash="104,4,353.06,66.04,U5P,VCC,5V,,,"/>
+<approved hash="104,4,124.46,248.92,U7,VCC,5V,,,"/>
+<approved hash="104,4,124.46,165.1,U11,VCC,5V,,,"/>
+<approved hash="104,4,175.26,93.98,U24,VCC,5V,,,"/>
+<approved hash="104,4,104.14,208.28,U6,VCC,5V,,,"/>
+<approved hash="104,4,104.14,124.46,U10,VCC,5V,,,"/>
+<approved hash="104,4,154.94,50.8,U25,VCC,5V,,,"/>
 <approved hash="113,4,302.26,213.809,P1,,,,,"/>
 </errors>
 </schematic>
