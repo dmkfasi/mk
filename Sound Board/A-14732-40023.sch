@@ -221,71 +221,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
-<library name="SparkFun-Capacitors">
-<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
-In this library you'll find resistors, capacitors, inductors, test points, jumper pads, etc.&lt;br&gt;&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
-&lt;br&gt;&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="NIC_10X10.5_CAP">
-<smd name="+" x="4.5" y="0" dx="4.5" dy="2.5" layer="1"/>
-<smd name="-" x="-4.5" y="0" dx="4.5" dy="2.5" layer="1"/>
-<wire x1="-5.5" y1="-5.5" x2="3.5" y2="-5.5" width="0.2032" layer="21"/>
-<wire x1="-5.5" y1="5.5" x2="3.5" y2="5.5" width="0.2032" layer="21"/>
-<wire x1="3.5" y1="5.5" x2="5.5" y2="3.5" width="0.2032" layer="21"/>
-<wire x1="5.5" y1="-3.5" x2="3.5" y2="-5.5" width="0.2032" layer="21"/>
-<wire x1="-4.826" y1="1.524" x2="4.826" y2="1.397" width="0.2032" layer="21" curve="-147.716211"/>
-<wire x1="-4.826" y1="-1.524" x2="4.826" y2="-1.397" width="0.2032" layer="21" curve="147.716211"/>
-<wire x1="5.5" y1="3.5" x2="5.5" y2="1.5" width="0.2032" layer="21"/>
-<wire x1="5.5" y1="-3.5" x2="5.5" y2="-1.5" width="0.2032" layer="21"/>
-<wire x1="-5.5" y1="-5.5" x2="-5.5" y2="-1.5" width="0.2032" layer="21"/>
-<wire x1="-5.5" y1="1.5" x2="-5.5" y2="5.5" width="0.2032" layer="21"/>
-<text x="-3.175" y="2.54" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.81" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-</packages>
-<symbols>
-<symbol name="CAP_POL">
-<wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="-1.016" x2="0" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="0" y1="-1" x2="2.4892" y2="-1.8542" width="0.254" layer="94" curve="-37.878202" cap="flat"/>
-<wire x1="-2.4669" y1="-1.8504" x2="0" y2="-1.0161" width="0.254" layer="94" curve="-37.376341" cap="flat"/>
-<text x="1.016" y="0.635" size="1.778" layer="95">&gt;NAME</text>
-<text x="1.016" y="-4.191" size="1.778" layer="96">&gt;VALUE</text>
-<rectangle x1="-2.253" y1="0.668" x2="-1.364" y2="0.795" layer="94"/>
-<rectangle x1="-1.872" y1="0.287" x2="-1.745" y2="1.176" layer="94"/>
-<pin name="+" x="0" y="2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
-<pin name="-" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="100UF-63V-20%(ELECT)" prefix="C" uservalue="yes">
-<description>CAP-08362 &lt;BR&gt;
-100uF electrolytic SMT&lt;br&gt;
- 63V 20%</description>
-<gates>
-<gate name="G$1" symbol="CAP_POL" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="NIC_10X10.5_CAP">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CAP-08362"/>
-<attribute name="VALUE" value="100uF"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="74xx-us">
 <description>&lt;b&gt;TTL Devices, 74xx Series with US Symbols&lt;/b&gt;&lt;p&gt;
 Based on the following sources:
@@ -13315,7 +13250,7 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <part name="C99" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.01uF">
 <attribute name="VOLTAGE" value="50V"/>
 </part>
-<part name="C103" library="SparkFun-Capacitors" deviceset="100UF-63V-20%(ELECT)" device="" value="100uF">
+<part name="C103" library="A-14732-40023" deviceset="CAP_POL" device="D" value="100uF">
 <attribute name="VOLTAGE" value="25V"/>
 </part>
 <part name="GND14" library="supply2" deviceset="GND" device=""/>
@@ -13325,12 +13260,12 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <part name="U13" library="MK-ICs" deviceset="27C040" device="" value="27C040-150"/>
 <part name="GND16" library="supply2" deviceset="GND" device=""/>
 <part name="GND17" library="supply2" deviceset="GND" device=""/>
-<part name="C46" library="SparkFun-Capacitors" deviceset="100UF-63V-20%(ELECT)" device="" value="10uF">
+<part name="C46" library="A-14732-40023" deviceset="CAP_POL" device="C" value="10uF">
 <attribute name="VOLTAGE" value="20V"/>
 </part>
 <part name="+5V23" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="+5V24" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
-<part name="C53" library="SparkFun-Capacitors" deviceset="100UF-63V-20%(ELECT)" device="" value="10uF">
+<part name="C53" library="A-14732-40023" deviceset="CAP_POL" device="C" value="10uF">
 <attribute name="VOLTAGE" value="20V"/>
 </part>
 <part name="C51" library="SparkFun-Passives" deviceset="CAP" device="0805" value="3.3nF">
@@ -13345,7 +13280,7 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 </part>
 <part name="U$4" library="SparkFun-Aesthetics" deviceset="AGND" device=""/>
 <part name="U$5" library="SparkFun-Aesthetics" deviceset="AGND" device=""/>
-<part name="C57" library="SparkFun-Capacitors" deviceset="100UF-63V-20%(ELECT)" device="" value="10uF">
+<part name="C57" library="A-14732-40023" deviceset="CAP_POL" device="C" value="10uF">
 <attribute name="VOLTAGE" value="20V"/>
 </part>
 <part name="U29" library="linear" deviceset="LM324" device="D"/>
@@ -13356,8 +13291,8 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <part name="C55" library="SparkFun-Passives" deviceset="CAP" device="0805" value=".001uF">
 <attribute name="VOLTAGE" value="50V"/>
 </part>
-<part name="C64" library="SparkFun-Capacitors" deviceset="100UF-63V-20%(ELECT)" device="" value="10uF">
-<attribute name="VOLTAGE" value="16V"/>
+<part name="C64" library="A-14732-40023" deviceset="CAP_POL" device="C" value="10uF">
+<attribute name="VOLTAGE" value="20V"/>
 </part>
 <part name="R41" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="470"/>
 <part name="U$7" library="SparkFun-Aesthetics" deviceset="AGND" device=""/>
@@ -13366,7 +13301,7 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <part name="GND18" library="supply2" deviceset="GND" device=""/>
 <part name="U$9" library="SparkFun-Aesthetics" deviceset="AGND" device=""/>
 <part name="R68" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="1K"/>
-<part name="C63" library="SparkFun-Capacitors" deviceset="100UF-63V-20%(ELECT)" device="" value="47uF">
+<part name="C63" library="A-14732-40023" deviceset="CAP_POL" device="D" value="47uF">
 <attribute name="VOLTAGE" value="25V"/>
 </part>
 <part name="R69" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="8.2K"/>
@@ -13377,8 +13312,8 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <part name="U$10" library="SparkFun-Aesthetics" deviceset="AGND" device=""/>
 <part name="U$11" library="SparkFun-Aesthetics" deviceset="AGND" device=""/>
 <part name="R59" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="2.2K"/>
-<part name="C67" library="SparkFun-Capacitors" deviceset="100UF-63V-20%(ELECT)" device="" value="10uF">
-<attribute name="VOLTAGE" value="16V"/>
+<part name="C67" library="A-14732-40023" deviceset="CAP_POL" device="C" value="10uF">
+<attribute name="VOLTAGE" value="20V"/>
 </part>
 <part name="R60" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="100K"/>
 <part name="R55" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="100K"/>
@@ -13564,10 +13499,10 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <part name="C89" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF">
 <attribute name="VOLTAGE" value="50V"/>
 </part>
-<part name="C70" library="SparkFun-Capacitors" deviceset="100UF-63V-20%(ELECT)" device="" value="100uF">
+<part name="C70" library="A-14732-40023" deviceset="CAP_POL" device="D" value="100uF">
 <attribute name="VOLTAGE" value="25V"/>
 </part>
-<part name="C85" library="SparkFun-Capacitors" deviceset="100UF-63V-20%(ELECT)" device="" value="100uF">
+<part name="C85" library="A-14732-40023" deviceset="CAP_POL" device="D" value="100uF">
 <attribute name="VOLTAGE" value="25V"/>
 </part>
 <part name="U$24" library="SparkFun-Aesthetics" deviceset="AGND" device=""/>
@@ -13576,7 +13511,7 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <part name="U$25" library="SparkFun-Aesthetics" deviceset="AGND" device=""/>
 <part name="U$26" library="SparkFun-Aesthetics" deviceset="AGND" device=""/>
 <part name="R90" library="resistor" deviceset="R-US_" device="R1206" value="100"/>
-<part name="C102" library="SparkFun-Capacitors" deviceset="100UF-63V-20%(ELECT)" device="" value="10uF">
+<part name="C102" library="A-14732-40023" deviceset="CAP_POL" device="C" value="10uF">
 <attribute name="VOLTAGE" value="20V"/>
 </part>
 <part name="U$27" library="SparkFun-Aesthetics" deviceset="AGND" device=""/>
@@ -13585,17 +13520,17 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <part name="C96" library="SparkFun-Passives" deviceset="CAP" device="0805" value="220pF">
 <attribute name="VOLTAGE" value="50V"/>
 </part>
-<part name="C68" library="SparkFun-Capacitors" deviceset="100UF-63V-20%(ELECT)" device="" value="1uF">
+<part name="C68" library="A-14732-40023" deviceset="CAP_POL" device="C" value="1uF">
 <attribute name="VOLTAGE" value="63V"/>
 </part>
-<part name="C73" library="SparkFun-Capacitors" deviceset="100UF-63V-20%(ELECT)" device="" value="10uF">
+<part name="C73" library="A-14732-40023" deviceset="CAP_POL" device="C" value="10uF">
 <attribute name="VOLTAGE" value="20V"/>
 </part>
 <part name="R54" library="resistor" deviceset="R-US_" device="R1206" value="200"/>
 <part name="U$28" library="SparkFun-Aesthetics" deviceset="AGND" device=""/>
 <part name="U$29" library="SparkFun-Aesthetics" deviceset="AGND" device=""/>
 <part name="R67" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10K"/>
-<part name="C75" library="SparkFun-Capacitors" deviceset="100UF-63V-20%(ELECT)" device="" value="10uF">
+<part name="C75" library="A-14732-40023" deviceset="CAP_POL" device="C" value="10uF">
 <attribute name="VOLTAGE" value="20V"/>
 </part>
 <part name="P3" library="SparkFun-Connectors" deviceset="M03" device="LONGPADS" value="AUX OUT">
@@ -13605,7 +13540,7 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <part name="R80" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10K"/>
 <part name="SUPPLY7" library="SparkFun-Aesthetics" deviceset="12V" device=""/>
 <part name="U30" library="MK-ICs" deviceset="MC3340" device=""/>
-<part name="C66" library="SparkFun-Capacitors" deviceset="100UF-63V-20%(ELECT)" device="" value="47uF">
+<part name="C66" library="A-14732-40023" deviceset="CAP_POL" device="D" value="47uF">
 <attribute name="VOLTAGE" value="25V"/>
 </part>
 <part name="C97" library="SparkFun-Passives" deviceset="CAP" device="0805" value=".01uF">
@@ -13621,7 +13556,7 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <part name="R71" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10K"/>
 <part name="R70" library="resistor" deviceset="R-US_" device="R1206" value="47"/>
 <part name="SUPPLY8" library="supply2" deviceset="+9V" device=""/>
-<part name="C81" library="SparkFun-Capacitors" deviceset="100UF-63V-20%(ELECT)" device="" value="10uF">
+<part name="C81" library="A-14732-40023" deviceset="CAP_POL" device="C" value="10uF">
 <attribute name="VOLTAGE" value="20V"/>
 </part>
 <part name="R87" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="3.9K"/>
@@ -13639,22 +13574,22 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <part name="Y2" library="SparkFun-FreqCtrl" deviceset="OSCILLATOR" device="5X3-PIN1-INDICATED" value="8MHz">
 <attribute name="TOLERANCE" value="0.01%"/>
 </part>
-<part name="C79" library="SparkFun-Capacitors" deviceset="100UF-63V-20%(ELECT)" device="" value="220uF">
-<attribute name="VOLTAGE" value="25V"/>
+<part name="C79" library="A-14732-40023" deviceset="CAP_POL" device="E" value="220uF">
+<attribute name="VOLTAGE" value="16V"/>
 </part>
-<part name="C83" library="SparkFun-Capacitors" deviceset="100UF-63V-20%(ELECT)" device="" value="10uF">
+<part name="C83" library="A-14732-40023" deviceset="CAP_POL" device="C" value="10uF">
 <attribute name="VOLTAGE" value="20V"/>
 </part>
-<part name="C80" library="SparkFun-Capacitors" deviceset="100UF-63V-20%(ELECT)" device="" value="47uF">
+<part name="C80" library="A-14732-40023" deviceset="CAP_POL" device="D" value="47uF">
 <attribute name="VOLTAGE" value="25V"/>
 </part>
-<part name="C86" library="SparkFun-Capacitors" deviceset="100UF-63V-20%(ELECT)" device="" value="100uF">
+<part name="C86" library="A-14732-40023" deviceset="CAP_POL" device="D" value="100uF">
 <attribute name="VOLTAGE" value="25V"/>
 </part>
-<part name="C87" library="SparkFun-Capacitors" deviceset="100UF-63V-20%(ELECT)" device="" value="100uF">
+<part name="C87" library="A-14732-40023" deviceset="CAP_POL" device="D" value="100uF">
 <attribute name="VOLTAGE" value="25V"/>
 </part>
-<part name="C95" library="SparkFun-Capacitors" deviceset="100UF-63V-20%(ELECT)" device="" value="2200uF">
+<part name="C95" library="A-14732-40023" deviceset="CAP_POL" device="PTH3" value="2200uF">
 <attribute name="VOLTAGE" value="25V"/>
 </part>
 <part name="C32" library="SparkFun-Passives" deviceset="CAP" device="0805" value=".01uF">
@@ -15602,10 +15537,8 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <attribute name="NAME" x="68.58" y="121.92" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="68.58" y="127" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="C103" gate="G$1" x="83.82" y="127" smashed="yes" rot="MR0">
+<instance part="C103" gate="G$1" x="83.82" y="127" rot="MR0">
 <attribute name="VOLTAGE" x="81.28" y="124.46" size="1.778" layer="96" rot="MR0"/>
-<attribute name="NAME" x="81.28" y="121.92" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="81.28" y="127" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="GND14" gate="GND" x="71.12" y="114.3"/>
 <instance part="GND15" gate="GND" x="88.9" y="53.34"/>
@@ -15617,17 +15550,13 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <instance part="U26" gate="E" x="172.72" y="50.8"/>
 <instance part="GND16" gate="GND" x="226.06" y="58.42"/>
 <instance part="GND17" gate="GND" x="154.94" y="58.42"/>
-<instance part="C46" gate="G$1" x="193.04" y="152.4" smashed="yes" rot="R270">
+<instance part="C46" gate="G$1" x="193.04" y="152.4" rot="R270">
 <attribute name="VOLTAGE" x="190.5" y="149.86" size="1.778" layer="96" rot="R270"/>
-<attribute name="NAME" x="187.96" y="149.86" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="193.04" y="149.86" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="+5V23" gate="G$1" x="137.16" y="76.2"/>
 <instance part="+5V24" gate="G$1" x="208.28" y="76.2"/>
-<instance part="C53" gate="G$1" x="134.62" y="241.3" smashed="yes" rot="MR90">
+<instance part="C53" gate="G$1" x="134.62" y="241.3" rot="MR90">
 <attribute name="VOLTAGE" x="132.08" y="243.84" size="1.778" layer="96" rot="MR90"/>
-<attribute name="NAME" x="129.54" y="243.84" size="1.778" layer="95" rot="MR90"/>
-<attribute name="VALUE" x="134.62" y="243.84" size="1.778" layer="96" rot="MR90"/>
 </instance>
 <instance part="C51" gate="G$1" x="121.92" y="233.68" smashed="yes">
 <attribute name="VOLTAGE" x="124.46" y="233.68" size="1.778" layer="96"/>
@@ -15645,10 +15574,8 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 </instance>
 <instance part="U$4" gate="G$1" x="114.3" y="198.12"/>
 <instance part="U$5" gate="G$1" x="121.92" y="198.12"/>
-<instance part="C57" gate="G$1" x="134.62" y="215.9" smashed="yes" rot="MR90">
+<instance part="C57" gate="G$1" x="134.62" y="215.9" rot="MR90">
 <attribute name="VOLTAGE" x="132.08" y="218.44" size="1.778" layer="96" rot="MR90"/>
-<attribute name="NAME" x="129.54" y="218.44" size="1.778" layer="95" rot="MR90"/>
-<attribute name="VALUE" x="134.62" y="218.44" size="1.778" layer="96" rot="MR90"/>
 </instance>
 <instance part="U29" gate="A" x="119.38" y="147.32" rot="MR180"/>
 <instance part="U29" gate="B" x="152.4" y="187.96" rot="MR180"/>
@@ -15662,10 +15589,8 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <attribute name="NAME" x="124.46" y="180.34" size="1.778" layer="95"/>
 <attribute name="VALUE" x="124.46" y="175.26" size="1.778" layer="96"/>
 </instance>
-<instance part="C64" gate="G$1" x="137.16" y="180.34" smashed="yes">
+<instance part="C64" gate="G$1" x="137.16" y="180.34">
 <attribute name="VOLTAGE" x="139.7" y="177.8" size="1.778" layer="96"/>
-<attribute name="NAME" x="139.7" y="175.26" size="1.778" layer="95"/>
-<attribute name="VALUE" x="139.7" y="180.34" size="1.778" layer="96"/>
 </instance>
 <instance part="R41" gate="G$1" x="167.64" y="182.88" rot="MR90"/>
 <instance part="U$7" gate="G$1" x="167.64" y="172.72"/>
@@ -15674,10 +15599,8 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <instance part="GND18" gate="GND" x="223.52" y="187.96"/>
 <instance part="U$9" gate="G$1" x="231.14" y="177.8"/>
 <instance part="R68" gate="G$1" x="241.3" y="193.04" rot="MR90"/>
-<instance part="C63" gate="G$1" x="251.46" y="195.58" smashed="yes">
+<instance part="C63" gate="G$1" x="251.46" y="195.58">
 <attribute name="VOLTAGE" x="254" y="193.04" size="1.778" layer="96"/>
-<attribute name="NAME" x="254" y="190.5" size="1.778" layer="95"/>
-<attribute name="VALUE" x="254" y="195.58" size="1.778" layer="96"/>
 </instance>
 <instance part="R69" gate="G$1" x="236.22" y="210.82" rot="MR90"/>
 <instance part="+9V1" gate="G$1" x="236.22" y="218.44"/>
@@ -15691,10 +15614,8 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <instance part="U$10" gate="G$1" x="246.38" y="210.82"/>
 <instance part="U$11" gate="G$1" x="284.48" y="208.28"/>
 <instance part="R59" gate="G$1" x="276.86" y="220.98" rot="MR90"/>
-<instance part="C67" gate="G$1" x="287.02" y="228.6" smashed="yes" rot="R270">
+<instance part="C67" gate="G$1" x="287.02" y="228.6" rot="R270">
 <attribute name="VOLTAGE" x="284.48" y="226.06" size="1.778" layer="96" rot="R270"/>
-<attribute name="NAME" x="281.94" y="226.06" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="287.02" y="226.06" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="R60" gate="G$1" x="294.64" y="220.98" rot="MR90"/>
 <instance part="R55" gate="G$1" x="294.64" y="236.22" rot="MR90"/>
@@ -17815,15 +17736,11 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <instance part="C72" gate="G$1" x="109.22" y="55.88"/>
 <instance part="C88" gate="G$1" x="86.36" y="27.94" rot="MR0"/>
 <instance part="C89" gate="G$1" x="109.22" y="27.94"/>
-<instance part="C70" gate="G$1" x="121.92" y="58.42" smashed="yes">
+<instance part="C70" gate="G$1" x="121.92" y="58.42">
 <attribute name="VOLTAGE" x="124.46" y="55.88" size="1.778" layer="96"/>
-<attribute name="NAME" x="124.46" y="53.34" size="1.778" layer="95"/>
-<attribute name="VALUE" x="124.46" y="58.42" size="1.778" layer="96"/>
 </instance>
-<instance part="C85" gate="G$1" x="121.92" y="30.48" smashed="yes">
+<instance part="C85" gate="G$1" x="121.92" y="30.48">
 <attribute name="VOLTAGE" x="124.46" y="27.94" size="1.778" layer="96"/>
-<attribute name="NAME" x="124.46" y="25.4" size="1.778" layer="95"/>
-<attribute name="VALUE" x="124.46" y="30.48" size="1.778" layer="96"/>
 </instance>
 <instance part="U$24" gate="G$1" x="132.08" y="17.78"/>
 <instance part="GND27" gate="GND" x="132.08" y="45.72"/>
@@ -17831,33 +17748,25 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <instance part="U$25" gate="G$1" x="157.48" y="20.32"/>
 <instance part="U$26" gate="G$1" x="170.18" y="20.32"/>
 <instance part="R90" gate="G$1" x="157.48" y="48.26" rot="MR0"/>
-<instance part="C102" gate="G$1" x="182.88" y="43.18" smashed="yes">
+<instance part="C102" gate="G$1" x="182.88" y="43.18">
 <attribute name="VOLTAGE" x="185.42" y="40.64" size="1.778" layer="96"/>
-<attribute name="NAME" x="185.42" y="38.1" size="1.778" layer="95"/>
-<attribute name="VALUE" x="185.42" y="43.18" size="1.778" layer="96"/>
 </instance>
 <instance part="U$27" gate="G$1" x="182.88" y="20.32"/>
 <instance part="SUPPLY6" gate="G$1" x="170.18" y="40.64"/>
 <instance part="R88" gate="G$1" x="134.62" y="223.52" rot="MR0"/>
 <instance part="C96" gate="G$1" x="132.08" y="231.14" rot="R90"/>
-<instance part="C68" gate="G$1" x="152.4" y="213.36" smashed="yes" rot="R90">
+<instance part="C68" gate="G$1" x="152.4" y="213.36" rot="R90">
 <attribute name="VOLTAGE" x="154.94" y="215.9" size="1.778" layer="96" rot="R90"/>
-<attribute name="NAME" x="157.48" y="215.9" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="152.4" y="215.9" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="C73" gate="G$1" x="144.78" y="177.8" smashed="yes">
+<instance part="C73" gate="G$1" x="144.78" y="177.8">
 <attribute name="VOLTAGE" x="147.32" y="175.26" size="1.778" layer="96"/>
-<attribute name="NAME" x="147.32" y="172.72" size="1.778" layer="95"/>
-<attribute name="VALUE" x="147.32" y="177.8" size="1.778" layer="96"/>
 </instance>
 <instance part="R54" gate="G$1" x="139.7" y="190.5" rot="MR270"/>
 <instance part="U$28" gate="G$1" x="129.54" y="165.1"/>
 <instance part="U$29" gate="G$1" x="144.78" y="165.1"/>
 <instance part="R67" gate="G$1" x="162.56" y="198.12" rot="MR0"/>
-<instance part="C75" gate="G$1" x="180.34" y="185.42" smashed="yes" rot="R90">
+<instance part="C75" gate="G$1" x="180.34" y="185.42" rot="R90">
 <attribute name="VOLTAGE" x="182.88" y="187.96" size="1.778" layer="96" rot="R90"/>
-<attribute name="NAME" x="185.42" y="187.96" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="180.34" y="187.96" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="P3" gate="G$1" x="200.66" y="187.96" smashed="yes" rot="R180">
 <attribute name="PITCH" x="195.58" y="180.34" size="1.778" layer="96"/>
@@ -17868,10 +17777,8 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <instance part="R80" gate="G$1" x="154.94" y="165.1" rot="MR270"/>
 <instance part="SUPPLY7" gate="G$1" x="139.7" y="198.12"/>
 <instance part="U30" gate="G$1" x="172.72" y="124.46"/>
-<instance part="C66" gate="G$1" x="154.94" y="114.3" smashed="yes">
+<instance part="C66" gate="G$1" x="154.94" y="114.3">
 <attribute name="VOLTAGE" x="157.48" y="111.76" size="1.778" layer="96"/>
-<attribute name="NAME" x="157.48" y="109.22" size="1.778" layer="95"/>
-<attribute name="VALUE" x="157.48" y="114.3" size="1.778" layer="96"/>
 </instance>
 <instance part="C97" gate="G$1" x="134.62" y="114.3" rot="MR180"/>
 <instance part="U$31" gate="G$1" x="134.62" y="104.14"/>
@@ -17882,10 +17789,8 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <instance part="R71" gate="G$1" x="200.66" y="116.84" rot="MR270"/>
 <instance part="R70" gate="G$1" x="200.66" y="101.6" rot="MR270"/>
 <instance part="SUPPLY8" gate="G$1" x="175.26" y="144.78"/>
-<instance part="C81" gate="G$1" x="210.82" y="109.22" smashed="yes" rot="R90">
+<instance part="C81" gate="G$1" x="210.82" y="109.22" rot="R90">
 <attribute name="VOLTAGE" x="213.36" y="111.76" size="1.778" layer="96" rot="R90"/>
-<attribute name="NAME" x="215.9" y="111.76" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="210.82" y="111.76" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R87" gate="G$1" x="147.32" y="111.76" rot="MR270"/>
 <instance part="U$35" gate="G$1" x="147.32" y="81.28"/>
@@ -17904,35 +17809,25 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <attribute name="VALUE" x="68.58" y="35.56" size="1.778" layer="96" rot="MR180"/>
 <attribute name="KEY" x="76.2" y="43.18" size="1.778" layer="96" rot="MR180" display="name"/>
 </instance>
-<instance part="C79" gate="G$1" x="231.14" y="165.1" smashed="yes">
+<instance part="C79" gate="G$1" x="231.14" y="165.1">
 <attribute name="VOLTAGE" x="233.68" y="162.56" size="1.778" layer="96"/>
-<attribute name="NAME" x="233.68" y="160.02" size="1.778" layer="95"/>
-<attribute name="VALUE" x="233.68" y="165.1" size="1.778" layer="96"/>
 </instance>
-<instance part="C83" gate="G$1" x="243.84" y="160.02" smashed="yes">
+<instance part="C83" gate="G$1" x="243.84" y="160.02">
 <attribute name="VOLTAGE" x="246.38" y="157.48" size="1.778" layer="96"/>
-<attribute name="NAME" x="246.38" y="154.94" size="1.778" layer="95"/>
-<attribute name="VALUE" x="246.38" y="160.02" size="1.778" layer="96"/>
 </instance>
-<instance part="C80" gate="G$1" x="256.54" y="157.48" smashed="yes">
+<instance part="C80" gate="G$1" x="256.54" y="157.48">
 <attribute name="VOLTAGE" x="259.08" y="154.94" size="1.778" layer="96"/>
-<attribute name="NAME" x="259.08" y="152.4" size="1.778" layer="95"/>
-<attribute name="VALUE" x="259.08" y="157.48" size="1.778" layer="96"/>
 </instance>
-<instance part="C86" gate="G$1" x="304.8" y="162.56" smashed="yes" rot="MR270">
+<instance part="C86" gate="G$1" x="304.8" y="162.56" rot="MR270">
 <attribute name="VOLTAGE" x="307.34" y="160.02" size="1.778" layer="96" rot="MR270"/>
-<attribute name="NAME" x="309.88" y="160.02" size="1.778" layer="95" rot="MR270"/>
-<attribute name="VALUE" x="304.8" y="160.02" size="1.778" layer="96" rot="MR270"/>
 </instance>
 <instance part="C87" gate="G$1" x="304.8" y="190.5" smashed="yes" rot="MR270">
-<attribute name="VOLTAGE" x="304.8" y="200.66" size="1.778" layer="96" rot="MR270"/>
-<attribute name="NAME" x="307.34" y="200.66" size="1.778" layer="95" rot="MR270"/>
-<attribute name="VALUE" x="302.26" y="200.66" size="1.778" layer="96" rot="MR270"/>
+<attribute name="VOLTAGE" x="307.34" y="198.12" size="1.778" layer="96" rot="MR270"/>
+<attribute name="NAME" x="309.88" y="198.12" size="1.778" layer="95" rot="MR270"/>
+<attribute name="VALUE" x="302.26" y="193.04" size="1.778" layer="96" rot="MR90"/>
 </instance>
-<instance part="C95" gate="G$1" x="274.32" y="210.82" smashed="yes">
+<instance part="C95" gate="G$1" x="274.32" y="210.82">
 <attribute name="VOLTAGE" x="276.86" y="208.28" size="1.778" layer="96"/>
-<attribute name="NAME" x="276.86" y="205.74" size="1.778" layer="95"/>
-<attribute name="VALUE" x="276.86" y="210.82" size="1.778" layer="96"/>
 </instance>
 <instance part="C32" gate="G$1" x="289.56" y="210.82" rot="MR180"/>
 <instance part="C91" gate="G$1" x="320.04" y="160.02" rot="MR180"/>
