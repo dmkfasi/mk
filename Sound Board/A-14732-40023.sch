@@ -230,32 +230,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;&lt;br&gt;
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="0805-CAP">
-<wire x1="-0.3" y1="0.6" x2="0.3" y2="0.6" width="0.1524" layer="21"/>
-<wire x1="-0.3" y1="-0.6" x2="0.3" y2="-0.6" width="0.1524" layer="21"/>
-<smd name="1" x="-0.9" y="0" dx="0.8" dy="1.2" layer="1"/>
-<smd name="2" x="0.9" y="0" dx="0.8" dy="1.2" layer="1"/>
-<text x="-0.762" y="0.8255" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-1.016" y="-1.397" size="0.4064" layer="27">&gt;VALUE</text>
-<wire x1="0" y1="0.0305" x2="0" y2="-0.0305" width="0.5588" layer="21"/>
-<rectangle x1="0.508" y1="-0.635" x2="1.016" y2="0.635" layer="51"/>
-<rectangle x1="-1.016" y1="-0.635" x2="-0.508" y2="0.635" layer="51" rot="R180"/>
-</package>
-<package name="1206-CAP">
-<wire x1="-2.473" y1="0.983" x2="2.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="2.473" y1="-0.983" x2="-2.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-2.473" y1="-0.983" x2="-2.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="2.473" y1="0.983" x2="2.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-0.965" y1="0.787" x2="0.965" y2="0.787" width="0.1016" layer="51"/>
-<wire x1="-0.965" y1="-0.787" x2="0.965" y2="-0.787" width="0.1016" layer="51"/>
-<smd name="1" x="-1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
-<smd name="2" x="1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
-<text x="-1.27" y="1.143" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-1.397" y="-1.524" size="0.4064" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.7018" y1="-0.8509" x2="-0.9517" y2="0.8491" layer="51"/>
-<rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
-<wire x1="0" y1="0.0305" x2="0" y2="-0.0305" width="0.5588" layer="21"/>
-</package>
 <package name="NIC_10X10.5_CAP">
 <smd name="+" x="4.5" y="0" dx="4.5" dy="2.5" layer="1"/>
 <smd name="-" x="-4.5" y="0" dx="4.5" dy="2.5" layer="1"/>
@@ -274,16 +248,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 <symbols>
-<symbol name="CAP">
-<wire x1="0" y1="2.54" x2="0" y2="2.032" width="0.1524" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="0.508" width="0.1524" layer="94"/>
-<text x="1.524" y="2.921" size="1.778" layer="95">&gt;NAME</text>
-<text x="1.524" y="-2.159" size="1.778" layer="96">&gt;VALUE</text>
-<rectangle x1="-2.032" y1="0.508" x2="2.032" y2="1.016" layer="94"/>
-<rectangle x1="-2.032" y1="1.524" x2="2.032" y2="2.032" layer="94"/>
-<pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
-<pin name="2" x="0" y="-2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
-</symbol>
 <symbol name="CAP_POL">
 <wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
 <wire x1="0" y1="-1.016" x2="0" y2="-2.54" width="0.1524" layer="94"/>
@@ -298,43 +262,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="0.33UF-50V-10%(0805)" prefix="C" uservalue="yes">
-<description>CAP-08469</description>
-<gates>
-<gate name="G$1" symbol="CAP" x="0" y="-2.54"/>
-</gates>
-<devices>
-<device name="" package="0805-CAP">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CAP-08469" constant="no"/>
-<attribute name="VALUE" value="0.33uF" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="1.0UF50V10%(1206)" prefix="C" uservalue="yes">
-<description>CAP-09822</description>
-<gates>
-<gate name="G$1" symbol="CAP" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="1206-CAP">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="100UF-63V-20%(ELECT)" prefix="C" uservalue="yes">
 <description>CAP-08362 &lt;BR&gt;
 100uF electrolytic SMT&lt;br&gt;
@@ -13336,7 +13263,7 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <part name="U3" library="MK-ICs" deviceset="27C040" device="" value="27C040"/>
 <part name="GND7" library="supply2" deviceset="GND" device=""/>
 <part name="+5V9" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
-<part name="R1" library="resistor" deviceset="R-US_" device="R1206" value="4.7K"/>
+<part name="R1" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="4.7K"/>
 <part name="+5V10" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="+5V11" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="+5V12" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
@@ -13364,10 +13291,10 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <part name="Y1" library="crystal" deviceset="CRYSTAL" device="SM49" value="3.5749MHz">
 <attribute name="TOLERANCE" value="0.01%"/>
 </part>
-<part name="C47" library="SparkFun-Capacitors" deviceset="1.0UF50V10%(1206)" device="" value="100pF">
+<part name="C47" library="SparkFun-Passives" deviceset="CAP" device="0805" value="100pF">
 <attribute name="VOLTAGE" value="50V"/>
 </part>
-<part name="C49" library="SparkFun-Capacitors" deviceset="1.0UF50V10%(1206)" device="" value="100pF">
+<part name="C49" library="SparkFun-Passives" deviceset="CAP" device="0805" value="100pF">
 <attribute name="VOLTAGE" value="50V"/>
 </part>
 <part name="W7" library="jumper" deviceset="SJ" device="" value="JUMPER"/>
@@ -13385,7 +13312,7 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <part name="U1" library="MK-ICs" deviceset="OKI6295" device=""/>
 <part name="+5V21" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="R89" library="SparkFun-Passives" deviceset="RESISTOR" device="1206" value="10"/>
-<part name="C99" library="SparkFun-Capacitors" deviceset="1.0UF50V10%(1206)" device="" value="0.01uF">
+<part name="C99" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.01uF">
 <attribute name="VOLTAGE" value="50V"/>
 </part>
 <part name="C103" library="SparkFun-Capacitors" deviceset="100UF-63V-20%(ELECT)" device="" value="100uF">
@@ -13406,14 +13333,14 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <part name="C53" library="SparkFun-Capacitors" deviceset="100UF-63V-20%(ELECT)" device="" value="10uF">
 <attribute name="VOLTAGE" value="20V"/>
 </part>
-<part name="C51" library="SparkFun-Capacitors" deviceset="1.0UF50V10%(1206)" device="" value="3.3nF">
+<part name="C51" library="SparkFun-Passives" deviceset="CAP" device="0805" value="3.3nF">
 <attribute name="VOLTAGE" value="50V"/>
 </part>
 <part name="R37" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="820K"/>
 <part name="U$2" library="SparkFun-Aesthetics" deviceset="AGND" device=""/>
 <part name="U$3" library="SparkFun-Aesthetics" deviceset="AGND" device=""/>
 <part name="R42" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="820K"/>
-<part name="C56" library="SparkFun-Capacitors" deviceset="1.0UF50V10%(1206)" device="" value="3.3nF">
+<part name="C56" library="SparkFun-Passives" deviceset="CAP" device="0805" value="3.3nF">
 <attribute name="VOLTAGE" value="50V"/>
 </part>
 <part name="U$4" library="SparkFun-Aesthetics" deviceset="AGND" device=""/>
@@ -13426,7 +13353,7 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <part name="SUPPLY2" library="SparkFun-Aesthetics" deviceset="12V" device=""/>
 <part name="R43" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="1K"/>
 <part name="U$6" library="SparkFun-Aesthetics" deviceset="AGND" device=""/>
-<part name="C55" library="SparkFun-Capacitors" deviceset="1.0UF50V10%(1206)" device="" value=".001uF">
+<part name="C55" library="SparkFun-Passives" deviceset="CAP" device="0805" value=".001uF">
 <attribute name="VOLTAGE" value="50V"/>
 </part>
 <part name="C64" library="SparkFun-Capacitors" deviceset="100UF-63V-20%(ELECT)" device="" value="10uF">
@@ -13444,7 +13371,7 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 </part>
 <part name="R69" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="8.2K"/>
 <part name="+9V1" library="SparkFun-Aesthetics" deviceset="5V" device="" value="9V"/>
-<part name="C98" library="SparkFun-Capacitors" deviceset="1.0UF50V10%(1206)" device="" value="100pF">
+<part name="C98" library="SparkFun-Passives" deviceset="CAP" device="0805" value="100pF">
 <attribute name="VOLTAGE" value="50V"/>
 </part>
 <part name="U$10" library="SparkFun-Aesthetics" deviceset="AGND" device=""/>
@@ -13469,19 +13396,19 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <part name="U32" library="linear" deviceset="TL084" device="D"/>
 <part name="R39" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10K"/>
 <part name="R38" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10K"/>
-<part name="C52" library="SparkFun-Capacitors" deviceset="1.0UF50V10%(1206)" device="" value="6.8nF">
+<part name="C52" library="SparkFun-Passives" deviceset="CAP" device="0805" value="6.8nF">
 <attribute name="VOLTAGE" value="50V"/>
 </part>
 <part name="U$15" library="SparkFun-Aesthetics" deviceset="AGND" device=""/>
-<part name="C50" library="SparkFun-Capacitors" deviceset="1.0UF50V10%(1206)" device="" value="3.3nF">
+<part name="C50" library="SparkFun-Passives" deviceset="CAP" device="0805" value="3.3nF">
 <attribute name="VOLTAGE" value="50V"/>
 </part>
 <part name="R35" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10K"/>
-<part name="C58" library="SparkFun-Capacitors" deviceset="1.0UF50V10%(1206)" device="" value="6.8nF">
+<part name="C58" library="SparkFun-Passives" deviceset="CAP" device="0805" value="6.8nF">
 <attribute name="VOLTAGE" value="50V"/>
 </part>
 <part name="R36" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10K"/>
-<part name="C48" library="SparkFun-Capacitors" deviceset="1.0UF50V10%(1206)" device="" value="3.3nF">
+<part name="C48" library="SparkFun-Passives" deviceset="CAP" device="0805" value="3.3nF">
 <attribute name="VOLTAGE" value="50V"/>
 </part>
 <part name="U$16" library="SparkFun-Aesthetics" deviceset="AGND" device=""/>
@@ -13495,37 +13422,37 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <part name="SUPPLY3" library="SparkFun-Aesthetics" deviceset="12V" device=""/>
 <part name="+5V30" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="GND25" library="supply2" deviceset="GND" device=""/>
-<part name="C2" library="SparkFun-Capacitors" deviceset="1.0UF50V10%(1206)" device="" value=".01uF">
+<part name="C2" library="SparkFun-Passives" deviceset="CAP" device="0805" value=".01uF">
 <attribute name="VOLTAGE" value="50V"/>
 </part>
-<part name="C25" library="SparkFun-Capacitors" deviceset="1.0UF50V10%(1206)" device="" value=".01uF">
+<part name="C25" library="SparkFun-Passives" deviceset="CAP" device="0805" value=".01uF">
 <attribute name="VOLTAGE" value="50V"/>
 </part>
-<part name="C26" library="SparkFun-Capacitors" deviceset="1.0UF50V10%(1206)" device="" value=".01uF">
+<part name="C26" library="SparkFun-Passives" deviceset="CAP" device="0805" value=".01uF">
 <attribute name="VOLTAGE" value="50V"/>
 </part>
-<part name="C33" library="SparkFun-Capacitors" deviceset="1.0UF50V10%(1206)" device="" value=".01uF">
+<part name="C33" library="SparkFun-Passives" deviceset="CAP" device="0805" value=".01uF">
 <attribute name="VOLTAGE" value="50V"/>
 </part>
-<part name="C29" library="SparkFun-Capacitors" deviceset="1.0UF50V10%(1206)" device="" value=".01uF">
+<part name="C29" library="SparkFun-Passives" deviceset="CAP" device="0805" value=".01uF">
 <attribute name="VOLTAGE" value="50V"/>
 </part>
-<part name="C31" library="SparkFun-Capacitors" deviceset="1.0UF50V10%(1206)" device="" value=".01uF">
+<part name="C31" library="SparkFun-Passives" deviceset="CAP" device="0805" value=".01uF">
 <attribute name="VOLTAGE" value="50V"/>
 </part>
-<part name="C19" library="SparkFun-Capacitors" deviceset="1.0UF50V10%(1206)" device="" value=".01uF">
+<part name="C19" library="SparkFun-Passives" deviceset="CAP" device="0805" value=".01uF">
 <attribute name="VOLTAGE" value="50V"/>
 </part>
-<part name="C18" library="SparkFun-Capacitors" deviceset="1.0UF50V10%(1206)" device="" value=".01uF">
+<part name="C18" library="SparkFun-Passives" deviceset="CAP" device="0805" value=".01uF">
 <attribute name="VOLTAGE" value="50V"/>
 </part>
-<part name="C11" library="SparkFun-Capacitors" deviceset="1.0UF50V10%(1206)" device="" value=".01uF">
+<part name="C11" library="SparkFun-Passives" deviceset="CAP" device="0805" value=".01uF">
 <attribute name="VOLTAGE" value="50V"/>
 </part>
-<part name="C10" library="SparkFun-Capacitors" deviceset="1.0UF50V10%(1206)" device="" value=".01uF">
+<part name="C10" library="SparkFun-Passives" deviceset="CAP" device="0805" value=".01uF">
 <attribute name="VOLTAGE" value="50V"/>
 </part>
-<part name="C9" library="SparkFun-Capacitors" deviceset="1.0UF50V10%(1206)" device="" value=".01uF">
+<part name="C9" library="SparkFun-Passives" deviceset="CAP" device="0805" value=".01uF">
 <attribute name="VOLTAGE" value="50V"/>
 </part>
 <part name="C8" library="SparkFun-Passives" deviceset="CAP" device="0805" value=".01uF">
@@ -13540,47 +13467,47 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <part name="C5" library="SparkFun-Passives" deviceset="CAP" device="0805" value=".01uF">
 <attribute name="VOLTAGE" value="50V"/>
 </part>
-<part name="C20" library="SparkFun-Capacitors" deviceset="1.0UF50V10%(1206)" device="" value=".01uF">
+<part name="C20" library="SparkFun-Passives" deviceset="CAP" device="0805" value=".01uF">
 <attribute name="VOLTAGE" value="50V"/>
 </part>
-<part name="C22" library="SparkFun-Capacitors" deviceset="1.0UF50V10%(1206)" device="" value=".01uF">
+<part name="C22" library="SparkFun-Passives" deviceset="CAP" device="0805" value=".01uF">
 <attribute name="VOLTAGE" value="50V"/>
 </part>
-<part name="C15" library="SparkFun-Capacitors" deviceset="1.0UF50V10%(1206)" device="" value=".01uF">
+<part name="C15" library="SparkFun-Passives" deviceset="CAP" device="0805" value=".01uF">
 <attribute name="VOLTAGE" value="50V"/>
 </part>
-<part name="C13" library="SparkFun-Capacitors" deviceset="1.0UF50V10%(1206)" device="" value=".01uF">
+<part name="C13" library="SparkFun-Passives" deviceset="CAP" device="0805" value=".01uF">
 <attribute name="VOLTAGE" value="50V"/>
 </part>
-<part name="C14" library="SparkFun-Capacitors" deviceset="1.0UF50V10%(1206)" device="" value=".01uF">
+<part name="C14" library="SparkFun-Passives" deviceset="CAP" device="0805" value=".01uF">
 <attribute name="VOLTAGE" value="50V"/>
 </part>
-<part name="C16" library="SparkFun-Capacitors" deviceset="1.0UF50V10%(1206)" device="" value=".01uF">
+<part name="C16" library="SparkFun-Passives" deviceset="CAP" device="0805" value=".01uF">
 <attribute name="VOLTAGE" value="50V"/>
 </part>
-<part name="C17" library="SparkFun-Capacitors" deviceset="1.0UF50V10%(1206)" device="" value=".01uF">
+<part name="C17" library="SparkFun-Passives" deviceset="CAP" device="0805" value=".01uF">
 <attribute name="VOLTAGE" value="50V"/>
 </part>
 <part name="C28" library="SparkFun-Passives" deviceset="CAP" device="0805" value=".01uF">
 <attribute name="VOLTAGE" value="50V"/>
 </part>
-<part name="C24" library="SparkFun-Capacitors" deviceset="1.0UF50V10%(1206)" device="" value=".01uF">
+<part name="C24" library="SparkFun-Passives" deviceset="CAP" device="0805" value=".01uF">
 <attribute name="VOLTAGE" value="50V"/>
 </part>
-<part name="C12" library="SparkFun-Capacitors" deviceset="1.0UF50V10%(1206)" device="" value=".01uF">
+<part name="C12" library="SparkFun-Passives" deviceset="CAP" device="0805" value=".01uF">
 <attribute name="VOLTAGE" value="50V"/>
 </part>
-<part name="C21" library="SparkFun-Capacitors" deviceset="1.0UF50V10%(1206)" device="" value=".01uF">
+<part name="C21" library="SparkFun-Passives" deviceset="CAP" device="0805" value=".01uF">
 <attribute name="VOLTAGE" value="50V"/>
 </part>
 <part name="FRAME3" library="SparkFun-Retired" deviceset="FRAME-A3" device=""/>
 <part name="U33" library="linear" deviceset="TL084" device="D"/>
-<part name="C69" library="SparkFun-Capacitors" deviceset="1.0UF50V10%(1206)" device="" value="2.2nF">
+<part name="C69" library="SparkFun-Passives" deviceset="CAP" device="0805" value="2.2nF">
 <attribute name="VOLTAGE" value="50V"/>
 </part>
 <part name="R62" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10K"/>
 <part name="U$18" library="SparkFun-Aesthetics" deviceset="AGND" device=""/>
-<part name="C71" library="SparkFun-Capacitors" deviceset="1.0UF50V10%(1206)" device="" value="470pF">
+<part name="C71" library="SparkFun-Passives" deviceset="CAP" device="0805" value="470pF">
 <attribute name="VOLTAGE" value="50V"/>
 </part>
 <part name="R64" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="12K"/>
@@ -13595,18 +13522,18 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 </part>
 <part name="U$20" library="SparkFun-Aesthetics" deviceset="AGND" device=""/>
 <part name="R51" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="62K"/>
-<part name="C60" library="SparkFun-Capacitors" deviceset="1.0UF50V10%(1206)" device="" value="33pF">
+<part name="C60" library="SparkFun-Passives" deviceset="CAP" device="0805" value="33pF">
 <attribute name="VOLTAGE" value="50V"/>
 </part>
 <part name="R77" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="56K"/>
 <part name="R44" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="150K"/>
 <part name="R46" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="150K"/>
-<part name="C54" library="SparkFun-Capacitors" deviceset="1.0UF50V10%(1206)" device="" value="220pF">
+<part name="C54" library="SparkFun-Passives" deviceset="CAP" device="0805" value="220pF">
 <attribute name="VOLTAGE" value="50V"/>
 </part>
 <part name="U$21" library="SparkFun-Aesthetics" deviceset="AGND" device=""/>
 <part name="R45" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="62K"/>
-<part name="C30" library="SparkFun-Capacitors" deviceset="1.0UF50V10%(1206)" device="" value="33pF">
+<part name="C30" library="SparkFun-Passives" deviceset="CAP" device="0805" value="33pF">
 <attribute name="VOLTAGE" value="50V"/>
 </part>
 <part name="R78" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="56K"/>
@@ -13625,16 +13552,16 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <part name="L2" library="SparkFun-Passives" deviceset="INDUCTOR" device="NPI75" value="4.7uH">
 <attribute name="CURRENT" value="3.0A"/>
 </part>
-<part name="C74" library="SparkFun-Capacitors" deviceset="1.0UF50V10%(1206)" device="" value="0.1uF">
+<part name="C74" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF">
 <attribute name="VOLTAGE" value="50V"/>
 </part>
-<part name="C72" library="SparkFun-Capacitors" deviceset="1.0UF50V10%(1206)" device="" value="0.1uF">
+<part name="C72" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF">
 <attribute name="VOLTAGE" value="50V"/>
 </part>
-<part name="C88" library="SparkFun-Capacitors" deviceset="1.0UF50V10%(1206)" device="" value="0.1uF">
+<part name="C88" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF">
 <attribute name="VOLTAGE" value="50V"/>
 </part>
-<part name="C89" library="SparkFun-Capacitors" deviceset="1.0UF50V10%(1206)" device="" value="0.1uF">
+<part name="C89" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF">
 <attribute name="VOLTAGE" value="50V"/>
 </part>
 <part name="C70" library="SparkFun-Capacitors" deviceset="100UF-63V-20%(ELECT)" device="" value="100uF">
@@ -13655,7 +13582,7 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <part name="U$27" library="SparkFun-Aesthetics" deviceset="AGND" device=""/>
 <part name="SUPPLY6" library="supply2" deviceset="+9V" device=""/>
 <part name="R88" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="27K"/>
-<part name="C96" library="SparkFun-Capacitors" deviceset="1.0UF50V10%(1206)" device="" value="220pF">
+<part name="C96" library="SparkFun-Passives" deviceset="CAP" device="0805" value="220pF">
 <attribute name="VOLTAGE" value="50V"/>
 </part>
 <part name="C68" library="SparkFun-Capacitors" deviceset="100UF-63V-20%(ELECT)" device="" value="1uF">
@@ -13681,12 +13608,12 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <part name="C66" library="SparkFun-Capacitors" deviceset="100UF-63V-20%(ELECT)" device="" value="47uF">
 <attribute name="VOLTAGE" value="25V"/>
 </part>
-<part name="C97" library="SparkFun-Capacitors" deviceset="1.0UF50V10%(1206)" device="" value=".01uF">
+<part name="C97" library="SparkFun-Passives" deviceset="CAP" device="0805" value=".01uF">
 <attribute name="VOLTAGE" value="50V"/>
 </part>
 <part name="U$31" library="SparkFun-Aesthetics" deviceset="AGND" device=""/>
 <part name="U$32" library="SparkFun-Aesthetics" deviceset="AGND" device=""/>
-<part name="C76" library="SparkFun-Capacitors" deviceset="1.0UF50V10%(1206)" device="" value=".001uF">
+<part name="C76" library="SparkFun-Passives" deviceset="CAP" device="0805" value=".001uF">
 <attribute name="VOLTAGE" value="50V"/>
 </part>
 <part name="U$33" library="SparkFun-Aesthetics" deviceset="AGND" device=""/>
@@ -13730,17 +13657,17 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <part name="C95" library="SparkFun-Capacitors" deviceset="100UF-63V-20%(ELECT)" device="" value="2200uF">
 <attribute name="VOLTAGE" value="25V"/>
 </part>
-<part name="C32" library="SparkFun-Capacitors" deviceset="1.0UF50V10%(1206)" device="" value=".01uF">
+<part name="C32" library="SparkFun-Passives" deviceset="CAP" device="0805" value=".01uF">
 <attribute name="VOLTAGE" value="50V"/>
 </part>
-<part name="C91" library="SparkFun-Capacitors" deviceset="1.0UF50V10%(1206)" device="" value="0.1uF">
+<part name="C91" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF">
 <attribute name="VOLTAGE" value="50V"/>
 </part>
-<part name="C92" library="SparkFun-Capacitors" deviceset="1.0UF50V10%(1206)" device="" value="0.1uF">
+<part name="C92" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF">
 <attribute name="VOLTAGE" value="50V"/>
 </part>
 <part name="P7" library="con-amp" deviceset="MTA04-156" device="" value="0.156&quot;"/>
-<part name="C90" library="SparkFun-Capacitors" deviceset="1.0UF50V10%(1206)" device="" value="0.1uF">
+<part name="C90" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF">
 <attribute name="VOLTAGE" value="50V"/>
 </part>
 <part name="R92" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="100K"/>
@@ -13753,7 +13680,7 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <part name="U$43" library="SparkFun-Aesthetics" deviceset="AGND" device=""/>
 <part name="U$44" library="SparkFun-Aesthetics" deviceset="AGND" device=""/>
 <part name="U$47" library="SparkFun-Aesthetics" deviceset="AGND" device=""/>
-<part name="C65" library="SparkFun-Capacitors" deviceset="0.33UF-50V-10%(0805)" device="" value="0.22uF">
+<part name="C65" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.22uF">
 <attribute name="VOLTAGE" value="50V"/>
 </part>
 <part name="FRAME4" library="SparkFun-Retired" deviceset="FRAME-A3" device=""/>
@@ -13769,18 +13696,18 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <part name="U10" library="A-14732-40009" deviceset="26LS32A" device=""/>
 <part name="U25" library="A-14732-40009" deviceset="26LS32A" device=""/>
 <part name="P1" library="SparkFun-Connectors" deviceset="M10X2" device="ROUND_NOSILK"/>
-<part name="C35" library="SparkFun-Capacitors" deviceset="1.0UF50V10%(1206)" device="" value="100pF">
+<part name="C35" library="SparkFun-Passives" deviceset="CAP" device="0805" value="100pF">
 <attribute name="VOLTAGE" value="50V"/>
 </part>
 <part name="R11" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="47"/>
 <part name="GND29" library="supply2" deviceset="GND" device=""/>
-<part name="C37" library="SparkFun-Capacitors" deviceset="1.0UF50V10%(1206)" device="" value="100pF">
+<part name="C37" library="SparkFun-Passives" deviceset="CAP" device="0805" value="100pF">
 <attribute name="VOLTAGE" value="50V"/>
 </part>
-<part name="C38" library="SparkFun-Capacitors" deviceset="1.0UF50V10%(1206)" device="" value="100pF">
+<part name="C38" library="SparkFun-Passives" deviceset="CAP" device="0805" value="100pF">
 <attribute name="VOLTAGE" value="50V"/>
 </part>
-<part name="C36" library="SparkFun-Capacitors" deviceset="1.0UF50V10%(1206)" device="" value="100pF">
+<part name="C36" library="SparkFun-Passives" deviceset="CAP" device="0805" value="100pF">
 <attribute name="VOLTAGE" value="50V"/>
 </part>
 <part name="R13" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="47"/>
@@ -13788,18 +13715,18 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <part name="R12" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="47"/>
 <part name="R82" library="resistor" deviceset="R-US_" device="R1206" value="220"/>
 <part name="R83" library="resistor" deviceset="R-US_" device="R1206" value="470"/>
-<part name="C39" library="SparkFun-Capacitors" deviceset="1.0UF50V10%(1206)" device="" value="100pF">
+<part name="C39" library="SparkFun-Passives" deviceset="CAP" device="0805" value="100pF">
 <attribute name="VOLTAGE" value="50V"/>
 </part>
 <part name="R15" library="resistor" deviceset="R-US_" device="R1206" value="47"/>
 <part name="GND30" library="supply2" deviceset="GND" device=""/>
-<part name="C40" library="SparkFun-Capacitors" deviceset="1.0UF50V10%(1206)" device="" value="100pF">
+<part name="C40" library="SparkFun-Passives" deviceset="CAP" device="0805" value="100pF">
 <attribute name="VOLTAGE" value="50V"/>
 </part>
-<part name="C41" library="SparkFun-Capacitors" deviceset="1.0UF50V10%(1206)" device="" value="100pF">
+<part name="C41" library="SparkFun-Passives" deviceset="CAP" device="0805" value="100pF">
 <attribute name="VOLTAGE" value="50V"/>
 </part>
-<part name="C42" library="SparkFun-Capacitors" deviceset="1.0UF50V10%(1206)" device="" value="100pF">
+<part name="C42" library="SparkFun-Passives" deviceset="CAP" device="0805" value="100pF">
 <attribute name="VOLTAGE" value="50V"/>
 </part>
 <part name="R16" library="resistor" deviceset="R-US_" device="R1206" value="47"/>
@@ -13811,13 +13738,13 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <part name="R84" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="4.7K"/>
 <part name="R85" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="4.7K"/>
 <part name="R86" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="4.7K"/>
-<part name="C45" library="SparkFun-Capacitors" deviceset="1.0UF50V10%(1206)" device="" value="100pF">
+<part name="C45" library="SparkFun-Passives" deviceset="CAP" device="0805" value="100pF">
 <attribute name="VOLTAGE" value="50V"/>
 </part>
-<part name="C44" library="SparkFun-Capacitors" deviceset="1.0UF50V10%(1206)" device="" value="100pF">
+<part name="C44" library="SparkFun-Passives" deviceset="CAP" device="0805" value="100pF">
 <attribute name="VOLTAGE" value="50V"/>
 </part>
-<part name="C43" library="SparkFun-Capacitors" deviceset="1.0UF50V10%(1206)" device="" value="100pF">
+<part name="C43" library="SparkFun-Passives" deviceset="CAP" device="0805" value="100pF">
 <attribute name="VOLTAGE" value="50V"/>
 </part>
 <part name="GND31" library="supply2" deviceset="GND" device=""/>
@@ -13851,16 +13778,16 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <part name="R95" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="47"/>
 <part name="R93" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="47"/>
 <part name="R94" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="47"/>
-<part name="C104" library="SparkFun-Capacitors" deviceset="1.0UF50V10%(1206)" device="" value="100pF">
+<part name="C104" library="SparkFun-Passives" deviceset="CAP" device="0805" value="100pF">
 <attribute name="VOLTAGE" value="50V"/>
 </part>
-<part name="C105" library="SparkFun-Capacitors" deviceset="1.0UF50V10%(1206)" device="" value="100pF">
+<part name="C105" library="SparkFun-Passives" deviceset="CAP" device="0805" value="100pF">
 <attribute name="VOLTAGE" value="50V"/>
 </part>
-<part name="C106" library="SparkFun-Capacitors" deviceset="1.0UF50V10%(1206)" device="" value="100pF">
+<part name="C106" library="SparkFun-Passives" deviceset="CAP" device="0805" value="100pF">
 <attribute name="VOLTAGE" value="50V"/>
 </part>
-<part name="C107" library="SparkFun-Capacitors" deviceset="1.0UF50V10%(1206)" device="" value="100pF">
+<part name="C107" library="SparkFun-Passives" deviceset="CAP" device="0805" value="100pF">
 <attribute name="VOLTAGE" value="50V"/>
 </part>
 </parts>
