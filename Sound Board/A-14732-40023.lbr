@@ -1026,6 +1026,76 @@ reflow soldering</description>
 <text x="-2.54" y="1.381" size="0.4064" layer="25">&gt;NAME</text>
 <text x="0.408" y="1.332" size="0.4064" layer="27">&gt;VALUE</text>
 </package>
+<package name="SOP28">
+<description>&lt;b&gt;SMALL OUTLINE PACKAGE&lt;/b&gt;</description>
+<wire x1="-9.9" y1="6.9" x2="9.9" y2="6.9" width="0.1998" layer="39"/>
+<wire x1="9.9" y1="6.9" x2="9.9" y2="-6.9" width="0.1998" layer="39"/>
+<wire x1="-9.9" y1="-6.9" x2="-9.9" y2="6.9" width="0.1998" layer="39"/>
+<wire x1="9.415" y1="4.91" x2="9.415" y2="-4.91" width="0.2032" layer="51"/>
+<wire x1="9.415" y1="-4.91" x2="-9.415" y2="-4.91" width="0.2032" layer="51"/>
+<wire x1="-9.415" y1="-4.91" x2="-9.415" y2="4.91" width="0.2032" layer="51"/>
+<wire x1="-9.415" y1="4.91" x2="9.415" y2="4.91" width="0.2032" layer="51"/>
+<wire x1="9.9" y1="-6.9" x2="-9.9" y2="-6.9" width="0.1998" layer="39"/>
+<smd name="1" x="-8.255" y="-5.5" dx="0.6" dy="2.2" layer="1"/>
+<smd name="2" x="-6.985" y="-5.5" dx="0.6" dy="2.2" layer="1"/>
+<smd name="3" x="-5.715" y="-5.5" dx="0.6" dy="2.2" layer="1"/>
+<smd name="4" x="-4.445" y="-5.5" dx="0.6" dy="2.2" layer="1"/>
+<smd name="5" x="-3.175" y="-5.5" dx="0.6" dy="2.2" layer="1"/>
+<smd name="6" x="-1.905" y="-5.5" dx="0.6" dy="2.2" layer="1"/>
+<smd name="7" x="-0.635" y="-5.5" dx="0.6" dy="2.2" layer="1"/>
+<smd name="8" x="0.635" y="-5.5" dx="0.6" dy="2.2" layer="1"/>
+<smd name="9" x="1.905" y="-5.5" dx="0.6" dy="2.2" layer="1"/>
+<smd name="10" x="3.175" y="-5.5" dx="0.6" dy="2.2" layer="1"/>
+<smd name="11" x="4.445" y="-5.5" dx="0.6" dy="2.2" layer="1"/>
+<smd name="12" x="5.715" y="-5.5" dx="0.6" dy="2.2" layer="1"/>
+<smd name="13" x="6.985" y="-5.5" dx="0.6" dy="2.2" layer="1"/>
+<smd name="14" x="8.255" y="-5.5" dx="0.6" dy="2.2" layer="1"/>
+<smd name="15" x="8.255" y="5.5" dx="0.6" dy="2.2" layer="1"/>
+<smd name="16" x="6.985" y="5.5" dx="0.6" dy="2.2" layer="1"/>
+<smd name="17" x="5.715" y="5.5" dx="0.6" dy="2.2" layer="1"/>
+<smd name="18" x="4.445" y="5.5" dx="0.6" dy="2.2" layer="1"/>
+<smd name="19" x="3.175" y="5.5" dx="0.6" dy="2.2" layer="1"/>
+<smd name="20" x="1.905" y="5.5" dx="0.6" dy="2.2" layer="1"/>
+<smd name="21" x="0.635" y="5.5" dx="0.6" dy="2.2" layer="1"/>
+<smd name="22" x="-0.635" y="5.5" dx="0.6" dy="2.2" layer="1"/>
+<smd name="23" x="-1.905" y="5.5" dx="0.6" dy="2.2" layer="1"/>
+<smd name="24" x="-3.175" y="5.5" dx="0.6" dy="2.2" layer="1"/>
+<smd name="25" x="-4.445" y="5.5" dx="0.6" dy="2.2" layer="1"/>
+<smd name="26" x="-5.715" y="5.5" dx="0.6" dy="2.2" layer="1"/>
+<smd name="27" x="-6.985" y="5.5" dx="0.6" dy="2.2" layer="1"/>
+<smd name="28" x="-8.255" y="5.5" dx="0.6" dy="2.2" layer="1"/>
+<text x="-8.255" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-8.255" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-7.62" y="-4.3101" size="1.27" layer="21" rot="R90">1</text>
+<rectangle x1="-8.5049" y1="-6.3401" x2="-8.0051" y2="-5.0099" layer="51"/>
+<rectangle x1="-7.2349" y1="-6.3401" x2="-6.7351" y2="-5.0099" layer="51"/>
+<rectangle x1="-5.9649" y1="-6.3401" x2="-5.4651" y2="-5.0099" layer="51"/>
+<rectangle x1="-4.6949" y1="-6.3401" x2="-4.1951" y2="-5.0099" layer="51"/>
+<rectangle x1="-3.4249" y1="-6.3401" x2="-2.9251" y2="-5.0099" layer="51"/>
+<rectangle x1="-2.1549" y1="-6.3401" x2="-1.6551" y2="-5.0099" layer="51"/>
+<rectangle x1="-0.8849" y1="-6.3401" x2="-0.3851" y2="-5.0099" layer="51"/>
+<rectangle x1="0.3851" y1="-6.3401" x2="0.8849" y2="-5.0099" layer="51"/>
+<rectangle x1="1.6551" y1="-6.3401" x2="2.1549" y2="-5.0099" layer="51"/>
+<rectangle x1="2.9251" y1="-6.3401" x2="3.4249" y2="-5.0099" layer="51"/>
+<rectangle x1="4.1951" y1="-6.3401" x2="4.6949" y2="-5.0099" layer="51"/>
+<rectangle x1="5.4651" y1="-6.3401" x2="5.9649" y2="-5.0099" layer="51"/>
+<rectangle x1="6.7351" y1="-6.3401" x2="7.2349" y2="-5.0099" layer="51"/>
+<rectangle x1="8.0051" y1="-6.3401" x2="8.5049" y2="-5.0099" layer="51"/>
+<rectangle x1="8.0051" y1="5.0099" x2="8.5049" y2="6.3401" layer="51"/>
+<rectangle x1="6.7351" y1="5.0099" x2="7.2349" y2="6.3401" layer="51"/>
+<rectangle x1="5.4651" y1="5.0099" x2="5.9649" y2="6.3401" layer="51"/>
+<rectangle x1="4.1951" y1="5.0099" x2="4.6949" y2="6.3401" layer="51"/>
+<rectangle x1="2.9251" y1="5.0099" x2="3.4249" y2="6.3401" layer="51"/>
+<rectangle x1="1.6551" y1="5.0099" x2="2.1549" y2="6.3401" layer="51"/>
+<rectangle x1="0.3851" y1="5.0099" x2="0.8849" y2="6.3401" layer="51"/>
+<rectangle x1="-0.8849" y1="5.0099" x2="-0.3851" y2="6.3401" layer="51"/>
+<rectangle x1="-2.1549" y1="5.0099" x2="-1.6551" y2="6.3401" layer="51"/>
+<rectangle x1="-3.4249" y1="5.0099" x2="-2.9251" y2="6.3401" layer="51"/>
+<rectangle x1="-4.6949" y1="5.0099" x2="-4.1951" y2="6.3401" layer="51"/>
+<rectangle x1="-5.9649" y1="5.0099" x2="-5.4651" y2="6.3401" layer="51"/>
+<rectangle x1="-7.2349" y1="5.0099" x2="-6.7351" y2="6.3401" layer="51"/>
+<rectangle x1="-8.5049" y1="5.0099" x2="-8.0051" y2="6.3401" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="6809E">
@@ -1479,12 +1549,46 @@ reflow soldering</description>
 </devices>
 </deviceset>
 <deviceset name="MS6264L" prefix="U" uservalue="yes">
-<description>Hitachi SRAM memory 8K x 8 in DIP28 package</description>
+<description>Hitachi SRAM memory 8K x 8 in DIP28 or SOP28 (330mil) package</description>
 <gates>
 <gate name="G$1" symbol="MS6264L" x="0" y="2.54"/>
 </gates>
 <devices>
-<device name="" package="DIP28">
+<device name="DIP28" package="DIP28">
+<connects>
+<connect gate="G$1" pin="!CS1" pad="20"/>
+<connect gate="G$1" pin="!OE" pad="22"/>
+<connect gate="G$1" pin="!WE" pad="27"/>
+<connect gate="G$1" pin="A0" pad="10"/>
+<connect gate="G$1" pin="A1" pad="9"/>
+<connect gate="G$1" pin="A10" pad="21"/>
+<connect gate="G$1" pin="A11" pad="23"/>
+<connect gate="G$1" pin="A12" pad="2"/>
+<connect gate="G$1" pin="A2" pad="8"/>
+<connect gate="G$1" pin="A3" pad="7"/>
+<connect gate="G$1" pin="A4" pad="6"/>
+<connect gate="G$1" pin="A5" pad="5"/>
+<connect gate="G$1" pin="A6" pad="4"/>
+<connect gate="G$1" pin="A7" pad="3"/>
+<connect gate="G$1" pin="A8" pad="25"/>
+<connect gate="G$1" pin="A9" pad="24"/>
+<connect gate="G$1" pin="CS2" pad="26"/>
+<connect gate="G$1" pin="I/O0" pad="11"/>
+<connect gate="G$1" pin="I/O1" pad="12"/>
+<connect gate="G$1" pin="I/O2" pad="13"/>
+<connect gate="G$1" pin="I/O3" pad="15"/>
+<connect gate="G$1" pin="I/O4" pad="16"/>
+<connect gate="G$1" pin="I/O5" pad="17"/>
+<connect gate="G$1" pin="I/O6" pad="18"/>
+<connect gate="G$1" pin="I/O7" pad="19"/>
+<connect gate="G$1" pin="VCC" pad="28"/>
+<connect gate="G$1" pin="VSS" pad="14"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SOP28" package="SOP28">
 <connects>
 <connect gate="G$1" pin="!CS1" pad="20"/>
 <connect gate="G$1" pin="!OE" pad="22"/>
