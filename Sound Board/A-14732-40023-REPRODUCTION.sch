@@ -10713,8 +10713,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <circle x="0" y="0" radius="8.001" width="0.2032" layer="21"/>
 <pad name="2" x="-3.81" y="0" drill="1.016" diameter="1.6764"/>
 <pad name="1" x="3.81" y="0" drill="1.016" diameter="1.651" shape="square"/>
-<text x="-2.54" y="8.89" size="0.8128" layer="27">&gt;Value</text>
-<text x="-2.54" y="10.16" size="0.8128" layer="25">&gt;Name</text>
+<text x="-1.27" y="-3.81" size="0.8128" layer="27">&gt;Value</text>
+<text x="-1.27" y="3.81" size="0.8128" layer="25">&gt;Name</text>
 </package>
 <package name="CPOL-RADIAL-1000UF-25V">
 <wire x1="-1.905" y1="1.27" x2="-3.175" y2="1.27" width="0.2032" layer="21"/>
@@ -12555,7 +12555,7 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <part name="R26" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="2.2K"/>
 <part name="+5V17" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="FRAME2" library="SparkFun-Retired" deviceset="FRAME-A3" device=""/>
-<part name="Y1" library="crystal" deviceset="CRYSTAL" device="SM49" value="3.5749MHz">
+<part name="Y1" library="crystal" deviceset="CRYSTAL" device="HC49U-V" value="3.5749MHz">
 <attribute name="TOLERANCE" value="0.01%"/>
 </part>
 <part name="C47" library="SparkFun-Passives" deviceset="CAP" device="0805" value="100pF">
@@ -12878,7 +12878,7 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <part name="Y2" library="SparkFun-FreqCtrl" deviceset="OSCILLATOR" device="5X3-PIN1-INDICATED" value="8MHz">
 <attribute name="TOLERANCE" value="0.01%"/>
 </part>
-<part name="C79" library="A-14732-40023" deviceset="CAP_POL" device="E" value="220uF">
+<part name="C84" library="A-14732-40023" deviceset="CAP_POL" device="E" value="220uF">
 <attribute name="VOLTAGE" value="16V"/>
 </part>
 <part name="C83" library="A-14732-40023" deviceset="CAP_POL" device="C" value="10uF">
@@ -13026,7 +13026,7 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <part name="C107" library="SparkFun-Passives" deviceset="CAP" device="0805" value="100pF">
 <attribute name="VOLTAGE" value="50V"/>
 </part>
-<part name="RV1" library="SparkFun-Electromechanical" deviceset="POT" device="ALPS-KIT" value="50K"/>
+<part name="RV1" library="SparkFun-Electromechanical" deviceset="POT" device="-RV16AF-20" value="50K"/>
 <part name="C73" library="A-14732-40023" deviceset="CAP_POL" device="C" value="10uF">
 <attribute name="VOLTAGE" value="20V"/>
 </part>
@@ -16946,7 +16946,7 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <attribute name="KEY" x="76.2" y="43.18" size="1.778" layer="96" rot="MR180" display="name"/>
 <attribute name="PITCH" x="60.96" y="45.72" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="C79" gate="G$1" x="241.3" y="111.76">
+<instance part="C84" gate="G$1" x="241.3" y="111.76">
 <attribute name="VOLTAGE" x="243.84" y="109.22" size="1.778" layer="96"/>
 </instance>
 <instance part="C83" gate="G$1" x="254" y="106.68">
@@ -17132,7 +17132,7 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <wire x1="238.76" y1="180.34" x2="238.76" y2="177.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C79" gate="G$1" pin="-"/>
+<pinref part="C84" gate="G$1" pin="-"/>
 <pinref part="U$37" gate="G$1" pin="AGND"/>
 <wire x1="241.3" y1="106.68" x2="241.3" y2="99.06" width="0.1524" layer="91"/>
 </segment>
@@ -17568,7 +17568,7 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 </net>
 <net name="N$92" class="0">
 <segment>
-<pinref part="C79" gate="G$1" pin="+"/>
+<pinref part="C84" gate="G$1" pin="+"/>
 <wire x1="279.4" y1="121.92" x2="243.84" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="121.92" x2="243.84" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="119.38" x2="241.3" y2="119.38" width="0.1524" layer="91"/>
