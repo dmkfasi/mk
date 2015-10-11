@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,19 +53,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -7008,45 +7008,6 @@ In this library the device names are the same as the pin names of the symbols, t
 </library>
 <library name="MK-ICs">
 <packages>
-<package name="MS6264L">
-<description>Hitachi MS6264L DIP28</description>
-<wire x1="-17.653" y1="-1.27" x2="-17.653" y2="-6.604" width="0.1524" layer="21"/>
-<wire x1="-17.653" y1="1.27" x2="-17.653" y2="-1.27" width="0.1524" layer="21" curve="-180"/>
-<wire x1="17.653" y1="-6.604" x2="17.653" y2="6.604" width="0.1524" layer="21"/>
-<wire x1="-17.653" y1="6.604" x2="-17.653" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-17.653" y1="6.604" x2="17.653" y2="6.604" width="0.1524" layer="21"/>
-<wire x1="-17.653" y1="-6.604" x2="17.653" y2="-6.604" width="0.1524" layer="21"/>
-<pad name="1" x="-16.51" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
-<pad name="2" x="-13.97" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
-<pad name="3" x="-11.43" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
-<pad name="4" x="-8.89" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
-<pad name="5" x="-6.35" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
-<pad name="6" x="-3.81" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
-<pad name="7" x="-1.27" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
-<pad name="8" x="1.27" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
-<pad name="9" x="3.81" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
-<pad name="10" x="6.35" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
-<pad name="11" x="8.89" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
-<pad name="12" x="11.43" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
-<pad name="13" x="13.97" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
-<pad name="14" x="16.51" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
-<pad name="15" x="16.51" y="7.62" drill="0.8128" shape="long" rot="R90"/>
-<pad name="16" x="13.97" y="7.62" drill="0.8128" shape="long" rot="R90"/>
-<pad name="17" x="11.43" y="7.62" drill="0.8128" shape="long" rot="R90"/>
-<pad name="18" x="8.89" y="7.62" drill="0.8128" shape="long" rot="R90"/>
-<pad name="19" x="6.35" y="7.62" drill="0.8128" shape="long" rot="R90"/>
-<pad name="20" x="3.81" y="7.62" drill="0.8128" shape="long" rot="R90"/>
-<pad name="21" x="1.27" y="7.62" drill="0.8128" shape="long" rot="R90"/>
-<pad name="22" x="-1.27" y="7.62" drill="0.8128" shape="long" rot="R90"/>
-<pad name="23" x="-3.81" y="7.62" drill="0.8128" shape="long" rot="R90"/>
-<pad name="24" x="-6.35" y="7.62" drill="0.8128" shape="long" rot="R90"/>
-<pad name="25" x="-8.89" y="7.62" drill="0.8128" shape="long" rot="R90"/>
-<pad name="26" x="-11.43" y="7.62" drill="0.8128" shape="long" rot="R90"/>
-<pad name="27" x="-13.97" y="7.62" drill="0.8128" shape="long" rot="R90"/>
-<pad name="28" x="-16.51" y="7.62" drill="0.8128" shape="long" rot="R90"/>
-<text x="-17.78" y="-6.35" size="1.778" layer="25" ratio="10" rot="R90">&gt;NAME</text>
-<text x="-14.605" y="-0.9398" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
-</package>
 <package name="16L8">
 <description>PLD DIP20</description>
 <wire x1="12.7" y1="2.921" x2="-12.7" y2="2.921" width="0.1524" layer="21"/>
@@ -7374,42 +7335,6 @@ INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
 </package>
 </packages>
 <symbols>
-<symbol name="MS6264L">
-<description>This symbol is specially designed for the best fit onto official manual schematics</description>
-<wire x1="-10.16" y1="-38.1" x2="7.62" y2="-38.1" width="0.4064" layer="94"/>
-<wire x1="7.62" y1="22.86" x2="7.62" y2="-38.1" width="0.4064" layer="94"/>
-<wire x1="7.62" y1="22.86" x2="-10.16" y2="22.86" width="0.4064" layer="94"/>
-<wire x1="-10.16" y1="-38.1" x2="-10.16" y2="22.86" width="0.4064" layer="94"/>
-<text x="-10.16" y="23.495" size="1.778" layer="95">&gt;NAME</text>
-<text x="-10.16" y="-40.64" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="A0" x="-12.7" y="20.32" length="short" direction="in"/>
-<pin name="A1" x="-12.7" y="17.78" length="short" direction="in"/>
-<pin name="A2" x="-12.7" y="15.24" length="short" direction="in"/>
-<pin name="A3" x="-12.7" y="12.7" length="short" direction="in"/>
-<pin name="A4" x="-12.7" y="10.16" length="short" direction="in"/>
-<pin name="A5" x="-12.7" y="7.62" length="short" direction="in"/>
-<pin name="A6" x="-12.7" y="5.08" length="short" direction="in"/>
-<pin name="A7" x="-12.7" y="2.54" length="short" direction="in"/>
-<pin name="A8" x="-12.7" y="0" length="short" direction="in"/>
-<pin name="A9" x="-12.7" y="-2.54" length="short" direction="in"/>
-<pin name="A10" x="-12.7" y="-5.08" length="short" direction="in"/>
-<pin name="A11" x="-12.7" y="-7.62" length="short" direction="in"/>
-<pin name="A12" x="-12.7" y="-10.16" length="short" direction="in"/>
-<pin name="!WE" x="-12.7" y="-22.86" length="short" direction="in"/>
-<pin name="!OE" x="-15.24" y="-20.32" length="middle" direction="in" function="dot"/>
-<pin name="!CS1" x="-15.24" y="-15.24" length="middle" direction="in" function="dot"/>
-<pin name="I/O0" x="10.16" y="-15.24" length="short" rot="R180"/>
-<pin name="I/O1" x="10.16" y="-20.32" length="short" rot="R180"/>
-<pin name="I/O2" x="10.16" y="-22.86" length="short" rot="R180"/>
-<pin name="I/O3" x="10.16" y="-25.4" length="short" rot="R180"/>
-<pin name="I/O4" x="10.16" y="-27.94" length="short" rot="R180"/>
-<pin name="I/O5" x="10.16" y="-30.48" length="short" rot="R180"/>
-<pin name="I/O6" x="10.16" y="-33.02" length="short" rot="R180"/>
-<pin name="I/O7" x="10.16" y="-35.56" length="short" rot="R180"/>
-<pin name="VSS" x="-12.7" y="-35.56" length="short" direction="pwr"/>
-<pin name="VCC" x="-12.7" y="-33.02" length="short" direction="pwr"/>
-<pin name="CS2" x="-12.7" y="-17.78" length="short" direction="in"/>
-</symbol>
 <symbol name="16L8">
 <description>This symbol is specially designed for the best fit onto official manual schematics</description>
 <text x="-5.08" y="15.24" size="1.778" layer="95">&gt;NAME</text>
@@ -7620,48 +7545,6 @@ INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="MS6264L" prefix="U" uservalue="yes">
-<description>Hitachi SRAM memory 8K x 8 in DIP28 package</description>
-<gates>
-<gate name="G$1" symbol="MS6264L" x="0" y="2.54"/>
-</gates>
-<devices>
-<device name="" package="MS6264L">
-<connects>
-<connect gate="G$1" pin="!CS1" pad="20"/>
-<connect gate="G$1" pin="!OE" pad="22"/>
-<connect gate="G$1" pin="!WE" pad="27"/>
-<connect gate="G$1" pin="A0" pad="10"/>
-<connect gate="G$1" pin="A1" pad="9"/>
-<connect gate="G$1" pin="A10" pad="21"/>
-<connect gate="G$1" pin="A11" pad="23"/>
-<connect gate="G$1" pin="A12" pad="2"/>
-<connect gate="G$1" pin="A2" pad="8"/>
-<connect gate="G$1" pin="A3" pad="7"/>
-<connect gate="G$1" pin="A4" pad="6"/>
-<connect gate="G$1" pin="A5" pad="5"/>
-<connect gate="G$1" pin="A6" pad="4"/>
-<connect gate="G$1" pin="A7" pad="3"/>
-<connect gate="G$1" pin="A8" pad="25"/>
-<connect gate="G$1" pin="A9" pad="24"/>
-<connect gate="G$1" pin="CS2" pad="26"/>
-<connect gate="G$1" pin="I/O0" pad="11"/>
-<connect gate="G$1" pin="I/O1" pad="12"/>
-<connect gate="G$1" pin="I/O2" pad="13"/>
-<connect gate="G$1" pin="I/O3" pad="15"/>
-<connect gate="G$1" pin="I/O4" pad="16"/>
-<connect gate="G$1" pin="I/O5" pad="17"/>
-<connect gate="G$1" pin="I/O6" pad="18"/>
-<connect gate="G$1" pin="I/O7" pad="19"/>
-<connect gate="G$1" pin="VCC" pad="28"/>
-<connect gate="G$1" pin="VSS" pad="14"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="PAL16L8" prefix="U" uservalue="yes">
 <description>PAL16TIB8 PLD in DIP20 package</description>
 <gates>
@@ -11635,6 +11518,158 @@ reflow soldering</description>
 <rectangle x1="1.2954" y1="-0.8636" x2="1.8542" y2="0.8636" layer="51"/>
 <rectangle x1="-0.8636" y1="-0.7874" x2="-0.254" y2="0.7874" layer="21"/>
 </package>
+<package name="SOP28">
+<description>&lt;b&gt;SMALL OUTLINE PACKAGE&lt;/b&gt;</description>
+<wire x1="-9.9" y1="6.9" x2="9.9" y2="6.9" width="0.1998" layer="39"/>
+<wire x1="9.9" y1="6.9" x2="9.9" y2="-6.9" width="0.1998" layer="39"/>
+<wire x1="-9.9" y1="-6.9" x2="-9.9" y2="6.9" width="0.1998" layer="39"/>
+<wire x1="9.415" y1="4.91" x2="9.415" y2="-4.91" width="0.2032" layer="51"/>
+<wire x1="9.415" y1="-4.91" x2="-9.415" y2="-4.91" width="0.2032" layer="51"/>
+<wire x1="-9.415" y1="-4.91" x2="-9.415" y2="4.91" width="0.2032" layer="51"/>
+<wire x1="-9.415" y1="4.91" x2="9.415" y2="4.91" width="0.2032" layer="51"/>
+<wire x1="9.9" y1="-6.9" x2="-9.9" y2="-6.9" width="0.1998" layer="39"/>
+<smd name="1" x="-8.255" y="-5.5" dx="0.6" dy="2.2" layer="1"/>
+<smd name="2" x="-6.985" y="-5.5" dx="0.6" dy="2.2" layer="1"/>
+<smd name="3" x="-5.715" y="-5.5" dx="0.6" dy="2.2" layer="1"/>
+<smd name="4" x="-4.445" y="-5.5" dx="0.6" dy="2.2" layer="1"/>
+<smd name="5" x="-3.175" y="-5.5" dx="0.6" dy="2.2" layer="1"/>
+<smd name="6" x="-1.905" y="-5.5" dx="0.6" dy="2.2" layer="1"/>
+<smd name="7" x="-0.635" y="-5.5" dx="0.6" dy="2.2" layer="1"/>
+<smd name="8" x="0.635" y="-5.5" dx="0.6" dy="2.2" layer="1"/>
+<smd name="9" x="1.905" y="-5.5" dx="0.6" dy="2.2" layer="1"/>
+<smd name="10" x="3.175" y="-5.5" dx="0.6" dy="2.2" layer="1"/>
+<smd name="11" x="4.445" y="-5.5" dx="0.6" dy="2.2" layer="1"/>
+<smd name="12" x="5.715" y="-5.5" dx="0.6" dy="2.2" layer="1"/>
+<smd name="13" x="6.985" y="-5.5" dx="0.6" dy="2.2" layer="1"/>
+<smd name="14" x="8.255" y="-5.5" dx="0.6" dy="2.2" layer="1"/>
+<smd name="15" x="8.255" y="5.5" dx="0.6" dy="2.2" layer="1"/>
+<smd name="16" x="6.985" y="5.5" dx="0.6" dy="2.2" layer="1"/>
+<smd name="17" x="5.715" y="5.5" dx="0.6" dy="2.2" layer="1"/>
+<smd name="18" x="4.445" y="5.5" dx="0.6" dy="2.2" layer="1"/>
+<smd name="19" x="3.175" y="5.5" dx="0.6" dy="2.2" layer="1"/>
+<smd name="20" x="1.905" y="5.5" dx="0.6" dy="2.2" layer="1"/>
+<smd name="21" x="0.635" y="5.5" dx="0.6" dy="2.2" layer="1"/>
+<smd name="22" x="-0.635" y="5.5" dx="0.6" dy="2.2" layer="1"/>
+<smd name="23" x="-1.905" y="5.5" dx="0.6" dy="2.2" layer="1"/>
+<smd name="24" x="-3.175" y="5.5" dx="0.6" dy="2.2" layer="1"/>
+<smd name="25" x="-4.445" y="5.5" dx="0.6" dy="2.2" layer="1"/>
+<smd name="26" x="-5.715" y="5.5" dx="0.6" dy="2.2" layer="1"/>
+<smd name="27" x="-6.985" y="5.5" dx="0.6" dy="2.2" layer="1"/>
+<smd name="28" x="-8.255" y="5.5" dx="0.6" dy="2.2" layer="1"/>
+<text x="-8.255" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-8.255" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-7.62" y="-4.3101" size="1.27" layer="21" rot="R90">1</text>
+<rectangle x1="-8.5049" y1="-6.3401" x2="-8.0051" y2="-5.0099" layer="51"/>
+<rectangle x1="-7.2349" y1="-6.3401" x2="-6.7351" y2="-5.0099" layer="51"/>
+<rectangle x1="-5.9649" y1="-6.3401" x2="-5.4651" y2="-5.0099" layer="51"/>
+<rectangle x1="-4.6949" y1="-6.3401" x2="-4.1951" y2="-5.0099" layer="51"/>
+<rectangle x1="-3.4249" y1="-6.3401" x2="-2.9251" y2="-5.0099" layer="51"/>
+<rectangle x1="-2.1549" y1="-6.3401" x2="-1.6551" y2="-5.0099" layer="51"/>
+<rectangle x1="-0.8849" y1="-6.3401" x2="-0.3851" y2="-5.0099" layer="51"/>
+<rectangle x1="0.3851" y1="-6.3401" x2="0.8849" y2="-5.0099" layer="51"/>
+<rectangle x1="1.6551" y1="-6.3401" x2="2.1549" y2="-5.0099" layer="51"/>
+<rectangle x1="2.9251" y1="-6.3401" x2="3.4249" y2="-5.0099" layer="51"/>
+<rectangle x1="4.1951" y1="-6.3401" x2="4.6949" y2="-5.0099" layer="51"/>
+<rectangle x1="5.4651" y1="-6.3401" x2="5.9649" y2="-5.0099" layer="51"/>
+<rectangle x1="6.7351" y1="-6.3401" x2="7.2349" y2="-5.0099" layer="51"/>
+<rectangle x1="8.0051" y1="-6.3401" x2="8.5049" y2="-5.0099" layer="51"/>
+<rectangle x1="8.0051" y1="5.0099" x2="8.5049" y2="6.3401" layer="51"/>
+<rectangle x1="6.7351" y1="5.0099" x2="7.2349" y2="6.3401" layer="51"/>
+<rectangle x1="5.4651" y1="5.0099" x2="5.9649" y2="6.3401" layer="51"/>
+<rectangle x1="4.1951" y1="5.0099" x2="4.6949" y2="6.3401" layer="51"/>
+<rectangle x1="2.9251" y1="5.0099" x2="3.4249" y2="6.3401" layer="51"/>
+<rectangle x1="1.6551" y1="5.0099" x2="2.1549" y2="6.3401" layer="51"/>
+<rectangle x1="0.3851" y1="5.0099" x2="0.8849" y2="6.3401" layer="51"/>
+<rectangle x1="-0.8849" y1="5.0099" x2="-0.3851" y2="6.3401" layer="51"/>
+<rectangle x1="-2.1549" y1="5.0099" x2="-1.6551" y2="6.3401" layer="51"/>
+<rectangle x1="-3.4249" y1="5.0099" x2="-2.9251" y2="6.3401" layer="51"/>
+<rectangle x1="-4.6949" y1="5.0099" x2="-4.1951" y2="6.3401" layer="51"/>
+<rectangle x1="-5.9649" y1="5.0099" x2="-5.4651" y2="6.3401" layer="51"/>
+<rectangle x1="-7.2349" y1="5.0099" x2="-6.7351" y2="6.3401" layer="51"/>
+<rectangle x1="-8.5049" y1="5.0099" x2="-8.0051" y2="6.3401" layer="51"/>
+</package>
+<package name="DIP28">
+<description>&lt;b&gt;Dual In Line Package&lt;/b&gt; 28 pin</description>
+<wire x1="-17.653" y1="-1.27" x2="-17.653" y2="-6.604" width="0.1524" layer="21"/>
+<wire x1="-17.653" y1="1.27" x2="-17.653" y2="-1.27" width="0.1524" layer="21" curve="-180"/>
+<wire x1="17.653" y1="-6.604" x2="17.653" y2="6.604" width="0.1524" layer="21"/>
+<wire x1="-17.653" y1="6.604" x2="-17.653" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-17.653" y1="6.604" x2="17.653" y2="6.604" width="0.1524" layer="21"/>
+<wire x1="-17.653" y1="-6.604" x2="17.653" y2="-6.604" width="0.1524" layer="21"/>
+<pad name="1" x="-16.51" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="2" x="-13.97" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="3" x="-11.43" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="4" x="-8.89" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="5" x="-6.35" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="6" x="-3.81" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="7" x="-1.27" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="8" x="1.27" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="9" x="3.81" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="10" x="6.35" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="11" x="8.89" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="12" x="11.43" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="13" x="13.97" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="14" x="16.51" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="15" x="16.51" y="7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="16" x="13.97" y="7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="17" x="11.43" y="7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="18" x="8.89" y="7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="19" x="6.35" y="7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="20" x="3.81" y="7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="21" x="1.27" y="7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="22" x="-1.27" y="7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="23" x="-3.81" y="7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="24" x="-6.35" y="7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="25" x="-8.89" y="7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="26" x="-11.43" y="7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="27" x="-13.97" y="7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="28" x="-16.51" y="7.62" drill="0.8128" shape="long" rot="R90"/>
+<text x="-17.78" y="-6.35" size="1.778" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="-14.605" y="-0.9398" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+<package name="DIP32">
+<description>&lt;b&gt;Dual In Line Package&lt;/b&gt; 32 pin</description>
+<wire x1="20.32" y1="6.731" x2="-20.32" y2="6.731" width="0.1524" layer="21"/>
+<wire x1="-20.32" y1="-6.731" x2="20.32" y2="-6.731" width="0.1524" layer="21"/>
+<wire x1="20.32" y1="6.731" x2="20.32" y2="-6.731" width="0.1524" layer="21"/>
+<wire x1="-20.32" y1="6.731" x2="-20.32" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="-20.32" y1="-6.731" x2="-20.32" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="-20.32" y1="1.016" x2="-20.32" y2="-1.016" width="0.1524" layer="21" curve="-180"/>
+<pad name="1" x="-19.05" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="2" x="-16.51" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="7" x="-3.81" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="8" x="-1.27" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="3" x="-13.97" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="4" x="-11.43" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="6" x="-6.35" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="5" x="-8.89" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="9" x="1.27" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="10" x="3.81" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="11" x="6.35" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="12" x="8.89" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="13" x="11.43" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="14" x="13.97" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="15" x="16.51" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="16" x="19.05" y="-7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="17" x="19.05" y="7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="18" x="16.51" y="7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="19" x="13.97" y="7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="20" x="11.43" y="7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="21" x="8.89" y="7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="22" x="6.35" y="7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="23" x="3.81" y="7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="24" x="1.27" y="7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="25" x="-1.27" y="7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="26" x="-3.81" y="7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="27" x="-6.35" y="7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="28" x="-8.89" y="7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="29" x="-11.43" y="7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="30" x="-13.97" y="7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="31" x="-16.51" y="7.62" drill="0.8128" shape="long" rot="R90"/>
+<pad name="32" x="-19.05" y="7.62" drill="0.8128" shape="long" rot="R90"/>
+<text x="-20.701" y="-6.604" size="1.778" layer="25" rot="R90">&gt;NAME</text>
+<text x="-16.891" y="-0.889" size="1.778" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="MB3731">
@@ -11735,6 +11770,83 @@ reflow soldering</description>
 <pin name="C" x="0" y="2.54" visible="off" length="point" direction="pas" rot="R270"/>
 <wire x1="0" y1="-2.54" x2="0" y2="-1.27" width="0.1524" layer="94"/>
 <wire x1="0" y1="2.54" x2="0" y2="1.27" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="MS6264L">
+<description>This symbol is specially designed for the best fit onto official manual schematics</description>
+<wire x1="-10.16" y1="-38.1" x2="7.62" y2="-38.1" width="0.4064" layer="94"/>
+<wire x1="7.62" y1="22.86" x2="7.62" y2="-38.1" width="0.4064" layer="94"/>
+<wire x1="7.62" y1="22.86" x2="-10.16" y2="22.86" width="0.4064" layer="94"/>
+<wire x1="-10.16" y1="-38.1" x2="-10.16" y2="22.86" width="0.4064" layer="94"/>
+<text x="-10.16" y="23.495" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-40.64" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="A0" x="-12.7" y="20.32" length="short" direction="in"/>
+<pin name="A1" x="-12.7" y="17.78" length="short" direction="in"/>
+<pin name="A2" x="-12.7" y="15.24" length="short" direction="in"/>
+<pin name="A3" x="-12.7" y="12.7" length="short" direction="in"/>
+<pin name="A4" x="-12.7" y="10.16" length="short" direction="in"/>
+<pin name="A5" x="-12.7" y="7.62" length="short" direction="in"/>
+<pin name="A6" x="-12.7" y="5.08" length="short" direction="in"/>
+<pin name="A7" x="-12.7" y="2.54" length="short" direction="in"/>
+<pin name="A8" x="-12.7" y="0" length="short" direction="in"/>
+<pin name="A9" x="-12.7" y="-2.54" length="short" direction="in"/>
+<pin name="A10" x="-12.7" y="-5.08" length="short" direction="in"/>
+<pin name="A11" x="-12.7" y="-7.62" length="short" direction="in"/>
+<pin name="A12" x="-12.7" y="-10.16" length="short" direction="in"/>
+<pin name="!WE" x="-12.7" y="-22.86" length="short" direction="in"/>
+<pin name="!OE" x="-15.24" y="-20.32" length="middle" direction="in" function="dot"/>
+<pin name="!CS1" x="-15.24" y="-15.24" length="middle" direction="in" function="dot"/>
+<pin name="I/O0" x="10.16" y="-15.24" length="short" rot="R180"/>
+<pin name="I/O1" x="10.16" y="-20.32" length="short" rot="R180"/>
+<pin name="I/O2" x="10.16" y="-22.86" length="short" rot="R180"/>
+<pin name="I/O3" x="10.16" y="-25.4" length="short" rot="R180"/>
+<pin name="I/O4" x="10.16" y="-27.94" length="short" rot="R180"/>
+<pin name="I/O5" x="10.16" y="-30.48" length="short" rot="R180"/>
+<pin name="I/O6" x="10.16" y="-33.02" length="short" rot="R180"/>
+<pin name="I/O7" x="10.16" y="-35.56" length="short" rot="R180"/>
+<pin name="VSS" x="-12.7" y="-35.56" length="short" direction="pwr"/>
+<pin name="VCC" x="-12.7" y="-33.02" length="short" direction="pwr"/>
+<pin name="CS2" x="-12.7" y="-17.78" length="short" direction="in"/>
+</symbol>
+<symbol name="27C040">
+<description>This symbol is specially designed for the best fit onto official manual schematics</description>
+<text x="-5.08" y="20.32" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-43.18" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="VPP" x="-7.62" y="-30.48" length="short" direction="pas"/>
+<pin name="A16" x="-7.62" y="-22.86" length="short" direction="pas"/>
+<pin name="A15" x="-7.62" y="-20.32" length="short" direction="pas"/>
+<pin name="A12" x="-7.62" y="-12.7" length="short" direction="pas"/>
+<pin name="A7" x="-7.62" y="0" length="short" direction="pas"/>
+<pin name="A6" x="-7.62" y="2.54" length="short" direction="pas"/>
+<pin name="A5" x="-7.62" y="5.08" length="short" direction="pas"/>
+<pin name="A4" x="-7.62" y="7.62" length="short" direction="pas"/>
+<pin name="A3" x="-7.62" y="10.16" length="short" direction="pas"/>
+<pin name="A2" x="-7.62" y="12.7" length="short" direction="pas"/>
+<pin name="A1" x="-7.62" y="15.24" length="short" direction="pas"/>
+<pin name="A0" x="-7.62" y="17.78" length="short" direction="pas"/>
+<pin name="D0" x="20.32" y="12.7" length="short" direction="pas" rot="R180"/>
+<pin name="D1" x="20.32" y="10.16" length="short" direction="pas" rot="R180"/>
+<pin name="D2" x="20.32" y="7.62" length="short" direction="pas" rot="R180"/>
+<pin name="VSS" x="20.32" y="-38.1" length="short" direction="pas" rot="R180"/>
+<pin name="D3" x="20.32" y="5.08" length="short" direction="pas" rot="R180"/>
+<pin name="D4" x="20.32" y="2.54" length="short" direction="pas" rot="R180"/>
+<pin name="D5" x="20.32" y="0" length="short" direction="pas" rot="R180"/>
+<pin name="D6" x="20.32" y="-2.54" length="short" direction="pas" rot="R180"/>
+<pin name="D7" x="20.32" y="-5.08" length="short" direction="pas" rot="R180"/>
+<pin name="!CS" x="-10.16" y="-35.56" length="middle" direction="pas" function="dot"/>
+<pin name="A10" x="-7.62" y="-7.62" length="short" direction="pas"/>
+<pin name="!OE" x="-10.16" y="-38.1" length="middle" direction="pas" function="dot"/>
+<pin name="A11" x="-7.62" y="-10.16" length="short" direction="pas"/>
+<pin name="A9" x="-7.62" y="-5.08" length="short" direction="pas"/>
+<pin name="A8" x="-7.62" y="-2.54" length="short" direction="pas"/>
+<pin name="A13" x="-7.62" y="-15.24" length="short" direction="pas"/>
+<pin name="A14" x="-7.62" y="-17.78" length="short" direction="pas"/>
+<pin name="A17" x="-7.62" y="-25.4" length="short" direction="pas"/>
+<pin name="A18" x="-7.62" y="-27.94" length="short" direction="pas"/>
+<pin name="VCC" x="20.32" y="-35.56" length="short" direction="pas" rot="R180"/>
+<wire x1="-5.08" y1="20.32" x2="17.78" y2="20.32" width="0.254" layer="94"/>
+<wire x1="17.78" y1="20.32" x2="17.78" y2="-40.64" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-40.64" x2="-5.08" y2="-40.64" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-40.64" x2="-5.08" y2="20.32" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -12017,6 +12129,129 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 </device>
 </devices>
 </deviceset>
+<deviceset name="MS6264L" prefix="U" uservalue="yes">
+<description>Hitachi SRAM memory 8K x 8 in DIP28 or SOP28 (330mil) package</description>
+<gates>
+<gate name="G$1" symbol="MS6264L" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="DIP28" package="DIP28">
+<connects>
+<connect gate="G$1" pin="!CS1" pad="20"/>
+<connect gate="G$1" pin="!OE" pad="22"/>
+<connect gate="G$1" pin="!WE" pad="27"/>
+<connect gate="G$1" pin="A0" pad="10"/>
+<connect gate="G$1" pin="A1" pad="9"/>
+<connect gate="G$1" pin="A10" pad="21"/>
+<connect gate="G$1" pin="A11" pad="23"/>
+<connect gate="G$1" pin="A12" pad="2"/>
+<connect gate="G$1" pin="A2" pad="8"/>
+<connect gate="G$1" pin="A3" pad="7"/>
+<connect gate="G$1" pin="A4" pad="6"/>
+<connect gate="G$1" pin="A5" pad="5"/>
+<connect gate="G$1" pin="A6" pad="4"/>
+<connect gate="G$1" pin="A7" pad="3"/>
+<connect gate="G$1" pin="A8" pad="25"/>
+<connect gate="G$1" pin="A9" pad="24"/>
+<connect gate="G$1" pin="CS2" pad="26"/>
+<connect gate="G$1" pin="I/O0" pad="11"/>
+<connect gate="G$1" pin="I/O1" pad="12"/>
+<connect gate="G$1" pin="I/O2" pad="13"/>
+<connect gate="G$1" pin="I/O3" pad="15"/>
+<connect gate="G$1" pin="I/O4" pad="16"/>
+<connect gate="G$1" pin="I/O5" pad="17"/>
+<connect gate="G$1" pin="I/O6" pad="18"/>
+<connect gate="G$1" pin="I/O7" pad="19"/>
+<connect gate="G$1" pin="VCC" pad="28"/>
+<connect gate="G$1" pin="VSS" pad="14"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SOP28" package="SOP28">
+<connects>
+<connect gate="G$1" pin="!CS1" pad="20"/>
+<connect gate="G$1" pin="!OE" pad="22"/>
+<connect gate="G$1" pin="!WE" pad="27"/>
+<connect gate="G$1" pin="A0" pad="10"/>
+<connect gate="G$1" pin="A1" pad="9"/>
+<connect gate="G$1" pin="A10" pad="21"/>
+<connect gate="G$1" pin="A11" pad="23"/>
+<connect gate="G$1" pin="A12" pad="2"/>
+<connect gate="G$1" pin="A2" pad="8"/>
+<connect gate="G$1" pin="A3" pad="7"/>
+<connect gate="G$1" pin="A4" pad="6"/>
+<connect gate="G$1" pin="A5" pad="5"/>
+<connect gate="G$1" pin="A6" pad="4"/>
+<connect gate="G$1" pin="A7" pad="3"/>
+<connect gate="G$1" pin="A8" pad="25"/>
+<connect gate="G$1" pin="A9" pad="24"/>
+<connect gate="G$1" pin="CS2" pad="26"/>
+<connect gate="G$1" pin="I/O0" pad="11"/>
+<connect gate="G$1" pin="I/O1" pad="12"/>
+<connect gate="G$1" pin="I/O2" pad="13"/>
+<connect gate="G$1" pin="I/O3" pad="15"/>
+<connect gate="G$1" pin="I/O4" pad="16"/>
+<connect gate="G$1" pin="I/O5" pad="17"/>
+<connect gate="G$1" pin="I/O6" pad="18"/>
+<connect gate="G$1" pin="I/O7" pad="19"/>
+<connect gate="G$1" pin="VCC" pad="28"/>
+<connect gate="G$1" pin="VSS" pad="14"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="27C040" prefix="U" uservalue="yes">
+<description>EPROM memory in DIP32 package</description>
+<gates>
+<gate name="G$1" symbol="27C040" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DIP32">
+<connects>
+<connect gate="G$1" pin="!CS" pad="22"/>
+<connect gate="G$1" pin="!OE" pad="24"/>
+<connect gate="G$1" pin="A0" pad="12"/>
+<connect gate="G$1" pin="A1" pad="11"/>
+<connect gate="G$1" pin="A10" pad="23"/>
+<connect gate="G$1" pin="A11" pad="25"/>
+<connect gate="G$1" pin="A12" pad="4"/>
+<connect gate="G$1" pin="A13" pad="28"/>
+<connect gate="G$1" pin="A14" pad="29"/>
+<connect gate="G$1" pin="A15" pad="3"/>
+<connect gate="G$1" pin="A16" pad="2"/>
+<connect gate="G$1" pin="A17" pad="30"/>
+<connect gate="G$1" pin="A18" pad="31"/>
+<connect gate="G$1" pin="A2" pad="10"/>
+<connect gate="G$1" pin="A3" pad="9"/>
+<connect gate="G$1" pin="A4" pad="8"/>
+<connect gate="G$1" pin="A5" pad="7"/>
+<connect gate="G$1" pin="A6" pad="6"/>
+<connect gate="G$1" pin="A7" pad="5"/>
+<connect gate="G$1" pin="A8" pad="27"/>
+<connect gate="G$1" pin="A9" pad="26"/>
+<connect gate="G$1" pin="D0" pad="13"/>
+<connect gate="G$1" pin="D1" pad="14"/>
+<connect gate="G$1" pin="D2" pad="15"/>
+<connect gate="G$1" pin="D3" pad="17"/>
+<connect gate="G$1" pin="D4" pad="18"/>
+<connect gate="G$1" pin="D5" pad="19"/>
+<connect gate="G$1" pin="D6" pad="20"/>
+<connect gate="G$1" pin="D7" pad="21"/>
+<connect gate="G$1" pin="VCC" pad="32"/>
+<connect gate="G$1" pin="VPP" pad="1"/>
+<connect gate="G$1" pin="VSS" pad="16"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -12086,9 +12321,9 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <part name="U8" library="74xx-us" deviceset="74*138" device="D" technology="LS" value="74LS138"/>
 <part name="U26" library="74xx-us" deviceset="74*04" device="D" technology="LS" value="74LS04"/>
 <part name="U16" library="74xx-us" deviceset="74*374" device="DW" technology="LS" value="74LS374"/>
-<part name="U2" library="MK-ICs" deviceset="MS6264L" device="" value="2064"/>
+<part name="U2" library="A-14732-40023" deviceset="MS6264L" device="SOP28" value="2064"/>
 <part name="U18" library="MK-ICs" deviceset="PAL16L8" device="" value="16L8"/>
-<part name="U3" library="MK-ICs" deviceset="27C040" device="" value="27C040"/>
+<part name="U3" library="A-14732-40023" deviceset="27C040" device="" value="27C040"/>
 <part name="GND7" library="supply2" deviceset="GND" device=""/>
 <part name="+5V9" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="R1" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="4.7K"/>
