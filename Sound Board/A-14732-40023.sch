@@ -13468,7 +13468,7 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 </part>
 <part name="U$21" library="SparkFun-Aesthetics" deviceset="AGND" device=""/>
 <part name="R45" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="62K"/>
-<part name="C30" library="SparkFun-Passives" deviceset="CAP" device="0805" value="33pF">
+<part name="C59" library="SparkFun-Passives" deviceset="CAP" device="0805" value="33pF">
 <attribute name="VOLTAGE" value="50V"/>
 </part>
 <part name="R78" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="56K"/>
@@ -17706,7 +17706,7 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <instance part="C54" gate="G$1" x="50.8" y="121.92"/>
 <instance part="U$21" gate="G$1" x="50.8" y="114.3"/>
 <instance part="R45" gate="G$1" x="55.88" y="142.24" rot="MR0"/>
-<instance part="C30" gate="G$1" x="71.12" y="134.62"/>
+<instance part="C59" gate="G$1" x="71.12" y="134.62"/>
 <instance part="R78" gate="G$1" x="109.22" y="142.24" rot="MR0"/>
 <instance part="R81" gate="G$1" x="109.22" y="149.86" rot="MR0"/>
 <instance part="P2" gate="G$1" x="111.76" y="104.14" smashed="yes" rot="R180">
@@ -18180,7 +18180,7 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <net name="N$79" class="0">
 <segment>
 <pinref part="R45" gate="G$1" pin="1"/>
-<pinref part="C30" gate="G$1" pin="1"/>
+<pinref part="C59" gate="G$1" pin="1"/>
 <wire x1="60.96" y1="142.24" x2="71.12" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="142.24" x2="71.12" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="127" x2="93.98" y2="127" width="0.1524" layer="91"/>
@@ -18198,7 +18198,7 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <net name="N$80" class="0">
 <segment>
 <pinref part="R46" gate="G$1" pin="1"/>
-<pinref part="C30" gate="G$1" pin="2"/>
+<pinref part="C59" gate="G$1" pin="2"/>
 <wire x1="71.12" y1="129.54" x2="76.2" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="132.08" x2="71.12" y2="129.54" width="0.1524" layer="91"/>
 <junction x="71.12" y="129.54"/>
