@@ -1,15 +1,32 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 16L8-25
+D LOW-POWER HIGH-PERFORMANCE IMPACT™ PAL® CIRCUITS
+K PAL16
+$ENDCMP
+#
 $CMP 2064
-D 8K x 8 Bit CMOS SRAM
+D 8K x 8 Bit CMOS Static RAM
 $ENDCMP
 #
 $CMP 26LS31
-D 26LS31 buffer
+D Quadruple Differential Line Driver
+K 2631
+F http://www.farnell.com/datasheets/1831427.pdf
+$ENDCMP
+#
+$CMP 26LS32A
+D Quadruple Differential Line Receiver
+K 2632
 $ENDCMP
 #
 $CMP 27C040-100
 D 256K x 8 CMOS EPROM
+$ENDCMP
+#
+$CMP 6809E
+D 8-Bit Microprocessing Unit
+K 6809
 $ENDCMP
 #
 $CMP 74ALS138
@@ -23,6 +40,40 @@ $ENDCMP
 #
 $CMP 74ALS374
 D 8 bits Register, 3 state Out
+$ENDCMP
+#
+$CMP 7809
+D +9V positive voltage regulator
+K 7809
+$ENDCMP
+#
+$CMP IQXO/7X
+D Active crystal oscillator
+$ENDCMP
+#
+$CMP MB3731
+D 18W BTL audio power amplifier
+K 3731
+$ENDCMP
+#
+$CMP MC3340
+D Electronic attenuator
+K 3340
+$ENDCMP
+#
+$CMP OKI6295
+D 4-channel mixing ADPCM voice syntehsis LSI
+K oki,6295
+$ENDCMP
+#
+$CMP YM2151
+D FM Operator Type-M(OPM)
+K 2151
+$ENDCMP
+#
+$CMP YM3012
+D 2-Channel Serial Input Floating D/A Converter
+K 3012
 $ENDCMP
 #
 #End Doc Library
