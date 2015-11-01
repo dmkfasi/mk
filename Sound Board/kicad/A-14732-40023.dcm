@@ -1,0 +1,28 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 2064
+D 8K x 8 Bit CMOS SRAM
+$ENDCMP
+#
+$CMP 26LS31
+D 26LS31 buffer
+$ENDCMP
+#
+$CMP 27C040-100
+D 256K x 8 CMOS EPROM
+$ENDCMP
+#
+$CMP 74ALS138
+D Decoder 3 to 8 (active low outputs)
+K TTL DECOD DECOD8
+$ENDCMP
+#
+$CMP 74ALS139
+D Dual Decoder 1 of 4, Active low outputs
+$ENDCMP
+#
+$CMP 74ALS374
+D 8 bits Register, 3 state Out
+$ENDCMP
+#
+#End Doc Library
