@@ -38,6 +38,10 @@ $CMP 74ALS139
 D Dual Decoder 1 of 4, Active low outputs
 $ENDCMP
 #
+$CMP 74ALS174
+D HEX D flip-flop
+$ENDCMP
+#
 $CMP 74ALS374
 D 8 bits Register, 3 state Out
 $ENDCMP
