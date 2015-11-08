@@ -82,10 +82,10 @@ EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 2 3
+Sheet 2 5
 Title "A-14732-43725"
 Date "2015-10-26"
-Rev "2"
+Rev "2.1"
 Comp ""
 Comment1 ""
 Comment2 ""
