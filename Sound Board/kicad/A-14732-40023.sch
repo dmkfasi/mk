@@ -82,10 +82,10 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 1 5
 Title "A-14732-43725"
 Date "2015-10-26"
-Rev "2"
+Rev "2.1"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -93,15 +93,27 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 750  750  2450 1650
+S 700  750  2400 1650
 U 56365641
-F0 "Video Sound Generator Speech Synthesis" 60
-F1 "sheet1.sch" 60
+F0 "Video Sound Generator Speech Synthesis" 79
+F1 "sheet1.sch" 79
 $EndSheet
 $Sheet
-S 3400 750  2450 1650
+S 3900 750  2400 1650
 U 563737E1
-F0 "Video Sound Generator Music Synthesis" 60
-F1 "sheet2.sch" 60
+F0 "Video Sound Generator Music Synthesis" 79
+F1 "sheet2.sch" 79
+$EndSheet
+$Sheet
+S 700  2800 2400 1650
+U 563FB0BE
+F0 "Video Sound Genrator Amplifier" 79
+F1 "sheet3.sch" 79
+$EndSheet
+$Sheet
+S 3900 2800 2400 1650
+U 563FBF5E
+F0 "Video Sound Generator Interface" 79
+F1 "sheet4.sch" 79
 $EndSheet
 $EndSCHEMATC
