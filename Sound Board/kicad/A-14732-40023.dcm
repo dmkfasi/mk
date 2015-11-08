@@ -55,6 +55,12 @@ $CMP IQXO/7X
 D Active crystal oscillator
 $ENDCMP
 #
+$CMP LM324D
+D Quad Op amp.
+K AmpliOp
+F op_amps/lm324.pdf
+$ENDCMP
+#
 $CMP MB3731
 D 18W BTL audio power amplifier
 K 3731
