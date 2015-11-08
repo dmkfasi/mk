@@ -1878,9 +1878,9 @@ Wire Bus Line
 Wire Bus Line
 	11050 6500 11050 9200
 Wire Bus Line
-	5950 9200 11050 9200
+	11050 9200 5950 9200
 Wire Bus Line
-	5950 7700 5950 9200
+	5950 9200 5950 7700
 Wire Wire Line
 	9350 8050 9650 8050
 Wire Wire Line
@@ -2116,7 +2116,7 @@ Wire Wire Line
 Wire Bus Line
 	3550 6500 3550 8000
 Wire Bus Line
-	1400 8000 3550 8000
+	3550 8000 1400 8000
 Connection ~ 3250 5650
 Wire Wire Line
 	3650 5650 3650 5600
@@ -2140,7 +2140,7 @@ Wire Wire Line
 Wire Wire Line
 	1500 6200 2050 6200
 Wire Bus Line
-	1400 4500 1400 8000
+	1400 8000 1400 4500
 Wire Wire Line
 	2850 7600 2950 7600
 Wire Wire Line
@@ -2935,4 +2935,21 @@ Wire Wire Line
 Connection ~ 12150 1900
 Text GLabel 12250 1900 2    39   UnSpc ~ 0
 DAC-OUT
+Wire Wire Line
+	9900 5300 9900 5350
+$Comp
+L +5V #PWR?
+U 1 1 564674C1
+P 8950 7650
+F 0 "#PWR?" H 8950 7500 50  0001 C CNN
+F 1 "+5V" H 8950 7790 50  0000 C CNN
+F 2 "" H 8950 7650 60  0000 C CNN
+F 3 "" H 8950 7650 60  0000 C CNN
+	1    8950 7650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8950 7650 8950 7750
+Wire Wire Line
+	8950 7750 9650 7750
 $EndSCHEMATC
