@@ -82,7 +82,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 5
+Sheet 5 5
 Title ""
 Date ""
 Rev ""
@@ -92,4 +92,14 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text GLabel 1100 900  0    39   UnSpc ~ 0
+WR-LATCH
+Text GLabel 1200 6100 0    39   UnSpc ~ 0
+RD-LATCH
+Text GLabel 1200 6700 0    39   UnSpc ~ 0
+IRQ
+Text GLabel 1200 6900 0    39   UnSpc ~ 0
+VIDPWRON
+Text GLabel 1200 7100 0    39   UnSpc ~ 0
+SOFT_RES
 $EndSCHEMATC
