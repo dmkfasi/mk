@@ -46,6 +46,12 @@ $CMP 74ALS374
 D 8 bits Register, 3 state Out
 $ENDCMP
 #
+$CMP 74LS74A
+D Dual D FlipFlop, Set & Reset
+K TTL DFF
+F 74xx/74hc_hct74.pdf
+$ENDCMP
+#
 $CMP 7809
 D +9V positive voltage regulator
 K 7809
