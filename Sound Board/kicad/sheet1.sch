@@ -156,8 +156,6 @@ Wire Wire Line
 	14150 4050 14300 4050
 Wire Wire Line
 	14150 3950 14300 3950
-Wire Bus Line
-	14050 4050 14050 5950
 Wire Wire Line
 	15350 5250 15200 5250
 Wire Wire Line
@@ -205,8 +203,6 @@ Wire Wire Line
 	14100 8350 14200 8350
 Wire Wire Line
 	14100 8250 14200 8250
-Wire Wire Line
-	14100 8150 14200 8150
 Wire Wire Line
 	14100 8050 14200 8050
 Wire Wire Line
@@ -948,8 +944,6 @@ Text GLabel 14200 8350 2    39   UnSpc ~ 0
 RA17-1
 Text GLabel 14200 8250 2    39   UnSpc ~ 0
 /EORQ
-Text GLabel 14200 8150 2    39   UnSpc ~ 0
-/RAMWR
 Text GLabel 14200 8050 2    39   UnSpc ~ 0
 RA17-0
 Text GLabel 14200 7950 2    39   UnSpc ~ 0
@@ -2009,4 +2003,12 @@ Wire Wire Line
 Wire Wire Line
 	1900 1500 1900 1650
 Connection ~ 1900 1650
+NoConn ~ 14100 8150
+Wire Bus Line
+	14050 4050 14050 5950
+Wire Wire Line
+	14250 3950 14250 3550
+Connection ~ 14250 3950
+Text GLabel 14250 3550 1    39   UnSpc ~ 0
+A0
 $EndSCHEMATC
