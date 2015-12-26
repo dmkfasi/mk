@@ -99,12 +99,6 @@ F0 "Video Sound Generator Speech Synthesis" 79
 F1 "sheet1.sch" 79
 $EndSheet
 $Sheet
-S 3900 750  2400 1650
-U 563737E1
-F0 "Video Sound Generator Music Synthesis" 79
-F1 "sheet2.sch" 79
-$EndSheet
-$Sheet
 S 700  2800 2400 1650
 U 563FB0BE
 F0 "Video Sound Genrator Amplifier" 79
@@ -115,5 +109,11 @@ S 3900 2800 2400 1650
 U 563FBF5E
 F0 "Video Sound Generator Interface" 79
 F1 "sheet4.sch" 79
+$EndSheet
+$Sheet
+S 3900 750  2400 1650
+U 563737E1
+F0 "Video Sound Generator Music Synthesis" 79
+F1 "sheet2.sch" 79
 $EndSheet
 $EndSCHEMATC
