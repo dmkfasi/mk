@@ -82,6 +82,10 @@ D 4-channel mixing ADPCM voice syntehsis LSI
 K oki,6295
 $ENDCMP
 #
+$CMP VCXO
+D Active crystal oscillator
+$ENDCMP
+#
 $CMP YM2151
 D FM Operator Type-M(OPM)
 K 2151
