@@ -1,0 +1,609 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:MainBoard-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Multi Mortal Kombat Kick harness condenser"
+Date "2015-12-24"
+Rev "2"
+Comp ""
+Comment1 "Designed by dmkfasi"
+Comment2 "Licenced under CERN OHL v1.1"
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_01X12 J1
+U 1 1 5678E715
+P 1600 4650
+F 0 "J1" V 1700 5200 50  0000 C CNN
+F 1 "Mortal Kombat 1 Y-Unit" V 1700 4550 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x12" H 1600 4650 50  0001 C CNN
+F 3 "" H 1600 4650 50  0000 C CNN
+	1    1600 4650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X15 J2
+U 1 1 5678E805
+P 3250 4650
+F 0 "J2" V 3350 5350 50  0000 C CNN
+F 1 "Mortal Kombat 1 T-Unit" V 3350 4650 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x15" H 3250 4650 50  0001 C CNN
+F 3 "" H 3250 4650 50  0000 C CNN
+	1    3250 4650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X15 P1
+U 1 1 5678E8D9
+P 10300 5400
+F 0 "P1" H 10300 6200 50  0000 C CNN
+F 1 "TO CONTROL PANEL" V 10400 5400 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x15" H 10300 5400 50  0001 C CNN
+F 3 "" H 10300 5400 50  0000 C CNN
+	1    10300 5400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X15 J3
+U 1 1 56793053
+P 1500 850
+F 0 "J3" V 1600 1550 50  0000 C CNN
+F 1 "Mortal Kombat 2" V 1600 850 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x15" H 1500 850 50  0001 C CNN
+F 3 "" H 1500 850 50  0000 C CNN
+	1    1500 850 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X15 J4
+U 1 1 567939A4
+P 3600 850
+F 0 "J4" V 3700 1550 50  0000 C CNN
+F 1 "Mortal Kombat 3" V 3700 850 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x15" H 3600 850 50  0001 C CNN
+F 3 "" H 3600 850 50  0000 C CNN
+	1    3600 850 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X15 J5
+U 1 1 56796D56
+P 5600 850
+F 0 "J5" V 5700 1550 50  0000 C CNN
+F 1 "Ultimate Mortal Kombat 3" V 5700 850 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x15" H 5600 850 50  0001 C CNN
+F 3 "" H 5600 850 50  0000 C CNN
+	1    5600 850 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X15 J6
+U 1 1 5679A57F
+P 7700 850
+F 0 "J6" V 7800 1550 50  0000 C CNN
+F 1 "Mortal Kombat 4" V 7800 850 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x15" H 7700 850 50  0001 C CNN
+F 3 "" H 7700 850 50  0000 C CNN
+	1    7700 850 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D_Schottky_Small J6D6
+U 1 1 5679A5AE
+P 8200 2300
+F 0 "J6D6" H 8200 2200 50  0000 C CNN
+F 1 "P2RUN" H 8450 2200 50  0000 C CNN
+F 2 "Diodes_SMD:MiniMELF_Standard" V 8200 2300 50  0001 C CNN
+F 3 "" V 8200 2300 50  0000 C CNN
+	1    8200 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D_Schottky_Small J6D3
+U 1 1 5679A5B7
+P 8400 2600
+F 0 "J6D3" H 8400 2500 50  0000 C CNN
+F 1 "P1RUN" H 8650 2500 50  0000 C CNN
+F 2 "Diodes_SMD:MiniMELF_Standard" V 8400 2600 50  0001 C CNN
+F 3 "" V 8400 2600 50  0000 C CNN
+	1    8400 2600
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 1150 4850
+NoConn ~ 1250 4850
+NoConn ~ 1450 4850
+NoConn ~ 1550 4850
+NoConn ~ 1750 4850
+NoConn ~ 2050 4850
+NoConn ~ 2150 4850
+NoConn ~ 2650 4850
+NoConn ~ 2750 4850
+NoConn ~ 2850 4850
+NoConn ~ 2950 4850
+NoConn ~ 3050 4850
+NoConn ~ 3350 4850
+NoConn ~ 3450 4850
+NoConn ~ 3750 4850
+NoConn ~ 3850 4850
+NoConn ~ 3950 4850
+NoConn ~ 900  1050
+NoConn ~ 1000 1050
+NoConn ~ 1100 1050
+NoConn ~ 1200 1050
+NoConn ~ 1300 1050
+NoConn ~ 1600 1050
+NoConn ~ 1700 1050
+NoConn ~ 2000 1050
+NoConn ~ 2100 1050
+NoConn ~ 2200 1050
+NoConn ~ 3000 1050
+NoConn ~ 3100 1050
+NoConn ~ 3200 1050
+NoConn ~ 3300 1050
+NoConn ~ 3400 1050
+NoConn ~ 3800 1050
+NoConn ~ 4200 1050
+NoConn ~ 4300 1050
+NoConn ~ 5000 1050
+NoConn ~ 5100 1050
+NoConn ~ 5200 1050
+NoConn ~ 5300 1050
+NoConn ~ 5400 1050
+NoConn ~ 5800 1050
+NoConn ~ 6200 1050
+NoConn ~ 6300 1050
+NoConn ~ 7100 1050
+NoConn ~ 7200 1050
+NoConn ~ 7300 1050
+NoConn ~ 7400 1050
+NoConn ~ 7500 1050
+NoConn ~ 7900 1050
+NoConn ~ 8300 1050
+NoConn ~ 8400 1050
+NoConn ~ 11000 5600
+NoConn ~ 10900 5600
+NoConn ~ 10500 5600
+NoConn ~ 10100 5600
+NoConn ~ 10000 5600
+NoConn ~ 9900 5600
+NoConn ~ 9800 5600
+NoConn ~ 9700 5600
+Text Label 9600 5950 3    60   ~ 0
+GND
+Text Label 1050 5000 3    60   ~ 0
+GND
+Text Label 2550 5000 3    60   ~ 0
+GND
+Text Label 800  1200 3    60   ~ 0
+GND
+Text Label 2900 1200 3    60   ~ 0
+GND
+Text Label 4900 1200 3    60   ~ 0
+GND
+Text Label 7000 1200 3    60   ~ 0
+GND
+$Comp
+L D_Schottky_x2_KCom_AAK D1
+U 1 1 5679A7AE
+P 2050 6200
+F 0 "D1" H 2100 6100 50  0000 C CNN
+F 1 "P2LP" H 2050 6300 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 2050 6200 50  0001 C CNN
+F 3 "" H 2050 6200 50  0000 C CNN
+	1    2050 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Schottky_x2_KCom_AAK D2
+U 1 1 5679B6AF
+P 3100 2400
+F 0 "D2" H 3150 2300 50  0000 C CNN
+F 1 "P2LP" H 3100 2500 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 3100 2400 50  0001 C CNN
+F 3 "" H 3100 2400 50  0000 C CNN
+	1    3100 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Schottky_x2_KCom_AAK D3
+U 1 1 5679C0DE
+P 7300 2400
+F 0 "D3" H 7350 2300 50  0000 C CNN
+F 1 "P2LP" H 7300 2500 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 7300 2400 50  0001 C CNN
+F 3 "" H 7300 2400 50  0000 C CNN
+	1    7300 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Schottky_x2_KCom_AAK D4
+U 1 1 5679D1C7
+P 3250 6600
+F 0 "D4" H 3300 6500 50  0000 C CNN
+F 1 "P2LK" H 3250 6700 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 3250 6600 50  0001 C CNN
+F 3 "" H 3250 6600 50  0000 C CNN
+	1    3250 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Schottky_x2_KCom_AAK D5
+U 1 1 5679DDDD
+P 3500 2800
+F 0 "D5" H 3550 2700 50  0000 C CNN
+F 1 "P2LK" H 3500 2900 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 3500 2800 50  0001 C CNN
+F 3 "" H 3500 2800 50  0000 C CNN
+	1    3500 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Schottky_x2_KCom_AAK D14
+U 1 1 5679F3C8
+P 7700 2800
+F 0 "D14" H 7750 2700 50  0000 C CNN
+F 1 "P2LK" H 7700 2900 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 7700 2800 50  0001 C CNN
+F 3 "" H 7700 2800 50  0000 C CNN
+	1    7700 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Schottky_x2_KCom_AAK D7
+U 1 1 5679FEB9
+P 2450 5400
+F 0 "D7" H 2500 5300 50  0000 C CNN
+F 1 "P1LP" H 2450 5500 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 2450 5400 50  0001 C CNN
+F 3 "" H 2450 5400 50  0000 C CNN
+	1    2450 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Schottky_x2_KCom_AAK D8
+U 1 1 567A03F7
+P 2300 1600
+F 0 "D8" H 2350 1500 50  0000 C CNN
+F 1 "P1LP" H 2300 1700 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 2300 1600 50  0001 C CNN
+F 3 "" H 2300 1600 50  0000 C CNN
+	1    2300 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Schottky_x2_KCom_AAK D9
+U 1 1 567A08A3
+P 6500 1600
+F 0 "D9" H 6550 1500 50  0000 C CNN
+F 1 "P1LP" H 6500 1700 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 6500 1600 50  0001 C CNN
+F 3 "" H 6500 1600 50  0000 C CNN
+	1    6500 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Schottky_x2_KCom_AAK D6
+U 1 1 567A10D1
+P 2850 5800
+F 0 "D6" H 2900 5700 50  0000 C CNN
+F 1 "P1LK" H 2850 5900 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 2850 5800 50  0001 C CNN
+F 3 "" H 2850 5800 50  0000 C CNN
+	1    2850 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Schottky_x2_KCom_AAK D11
+U 1 1 567A3429
+P 2700 2000
+F 0 "D11" H 2750 1900 50  0000 C CNN
+F 1 "P1LK" H 2700 2100 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 2700 2000 50  0001 C CNN
+F 3 "" H 2700 2000 50  0000 C CNN
+	1    2700 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Schottky_x2_KCom_AAK D13
+U 1 1 567A38C4
+P 6900 2000
+F 0 "D13" H 6950 1900 50  0000 C CNN
+F 1 "P1LK" H 6900 2100 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 6900 2000 50  0001 C CNN
+F 3 "" H 6900 2000 50  0000 C CNN
+	1    6900 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Schottky_x2_KCom_AAK D10
+U 1 1 567A3C40
+P 4700 2200
+F 0 "D10" H 4750 2100 50  0000 C CNN
+F 1 "P1RUN" H 4700 2300 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 4700 2200 50  0001 C CNN
+F 3 "" H 4700 2200 50  0000 C CNN
+	1    4700 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Schottky_x2_KCom_AAK D12
+U 1 1 567A3FAC
+P 5300 2500
+F 0 "D12" H 5350 2400 50  0000 C CNN
+F 1 "P2RUN" H 5300 2600 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 5300 2500 50  0001 C CNN
+F 3 "" H 5300 2500 50  0000 C CNN
+	1    5300 2500
+	1    0    0    -1  
+$EndComp
+Text Label 10200 5950 3    60   ~ 0
+P1-LP
+Text Label 10300 5950 3    60   ~ 0
+P1-LK
+Text Label 10400 5950 3    60   ~ 0
+P1-RUN
+Text Label 10600 5950 3    60   ~ 0
+P2-LP
+Text Label 10700 5950 3    60   ~ 0
+P2-LK
+Text Label 10800 5950 3    60   ~ 0
+P2-RUN
+Text Label 3250 7100 3    60   ~ 0
+P2-LK
+Text Label 2850 7100 3    60   ~ 0
+P1-LK
+Text Label 2450 7100 3    60   ~ 0
+P1-LP
+Text Label 2050 7100 3    60   ~ 0
+P2-LP
+$Comp
+L CONN_01X01 P0
+U 1 1 567877D2
+P 9000 5450
+F 0 "P0" H 9000 5550 50  0000 C CNN
+F 1 "MOUNTING HOLE" V 9100 5450 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_2-5mm" H 9000 5450 50  0001 C CNN
+F 3 "" H 9000 5450 50  0000 C CNN
+	1    9000 5450
+	0    -1   -1   0   
+$EndComp
+Text Label 9000 6000 3    60   ~ 0
+GND
+Wire Wire Line
+	7700 1050 7700 2000
+Wire Wire Line
+	7700 2000 7200 2000
+Wire Wire Line
+	7600 1050 7600 1600
+Wire Wire Line
+	7800 1050 7800 1300
+Wire Wire Line
+	7800 1300 8400 1300
+Wire Wire Line
+	8400 1300 8400 2500
+Wire Wire Line
+	8200 1050 8200 2200
+Wire Wire Line
+	8100 1050 8100 2800
+Wire Wire Line
+	8100 2800 8000 2800
+Wire Wire Line
+	8000 1050 8000 2400
+Wire Wire Line
+	7600 1600 6800 1600
+Wire Wire Line
+	7000 1050 7000 1200
+Wire Wire Line
+	5600 1050 5600 2000
+Wire Wire Line
+	5600 2000 6600 2000
+Wire Wire Line
+	5500 1050 5500 1600
+Wire Wire Line
+	6100 2500 5600 2500
+Wire Wire Line
+	6100 1050 6100 2500
+Wire Wire Line
+	6000 1050 6000 2800
+Wire Wire Line
+	6000 2800 7400 2800
+Wire Wire Line
+	5900 1050 5900 2400
+Wire Wire Line
+	5500 1600 6200 1600
+Wire Wire Line
+	4900 1050 4900 1200
+Wire Wire Line
+	3600 1050 3600 2000
+Wire Wire Line
+	3600 2000 3000 2000
+Wire Wire Line
+	3500 1050 3500 1600
+Wire Wire Line
+	10800 5950 10800 5600
+Wire Wire Line
+	10400 5950 10400 5600
+Wire Wire Line
+	4100 2500 5000 2500
+Wire Wire Line
+	4000 2800 4000 1050
+Wire Wire Line
+	3800 2800 4000 2800
+Wire Wire Line
+	3900 1050 3900 2400
+Wire Wire Line
+	3500 1600 2600 1600
+Wire Wire Line
+	2900 1050 2900 1200
+Wire Wire Line
+	1900 2800 3200 2800
+Wire Wire Line
+	1800 1050 1800 2400
+Wire Wire Line
+	1400 1600 2000 1600
+Wire Wire Line
+	1400 1050 1400 1600
+Wire Wire Line
+	800  1050 800  1200
+Wire Wire Line
+	10700 5950 10700 5600
+Wire Wire Line
+	10600 5950 10600 5600
+Wire Wire Line
+	10300 5950 10300 5600
+Wire Wire Line
+	10200 5950 10200 5600
+Wire Wire Line
+	9600 5600 9600 5950
+Wire Wire Line
+	1850 5400 2150 5400
+Wire Wire Line
+	1850 4850 1850 5400
+Wire Wire Line
+	3550 4850 3550 6200
+Wire Wire Line
+	3150 5800 3250 5800
+Wire Wire Line
+	3250 5800 3250 4850
+Wire Wire Line
+	3150 5400 2750 5400
+Wire Wire Line
+	3150 4850 3150 5400
+Wire Wire Line
+	2550 4850 2550 5000
+Wire Wire Line
+	1050 4850 1050 5000
+Wire Wire Line
+	1950 5800 2550 5800
+Wire Wire Line
+	1950 4850 1950 5800
+Wire Wire Line
+	1650 4850 1650 6600
+Wire Wire Line
+	1350 4850 1350 6200
+Wire Wire Line
+	3550 6200 2350 6200
+Wire Wire Line
+	1350 6200 1750 6200
+Wire Wire Line
+	1800 2400 2800 2400
+Wire Wire Line
+	3900 2400 3400 2400
+Wire Wire Line
+	5900 2400 7000 2400
+Wire Wire Line
+	8000 2400 7600 2400
+Wire Wire Line
+	1650 6600 2950 6600
+Wire Wire Line
+	3650 4850 3650 6600
+Wire Wire Line
+	3650 6600 3550 6600
+Wire Wire Line
+	2050 6400 2050 7100
+Wire Wire Line
+	2450 5600 2450 7100
+Wire Wire Line
+	2850 6000 2850 7100
+Wire Wire Line
+	3250 6800 3250 7100
+Wire Wire Line
+	1900 2800 1900 1050
+Wire Wire Line
+	1500 1050 1500 2000
+Wire Wire Line
+	1500 2000 2400 2000
+Wire Wire Line
+	4400 2200 3700 2200
+Wire Wire Line
+	3700 2200 3700 1050
+Wire Wire Line
+	5700 1050 5700 2200
+Wire Wire Line
+	5700 2200 5000 2200
+Wire Wire Line
+	4100 2500 4100 1050
+Wire Wire Line
+	9000 5650 9000 6000
+Wire Wire Line
+	2300 1800 2300 3300
+Wire Wire Line
+	2700 2200 2700 3300
+Wire Wire Line
+	3100 2600 3100 3300
+Wire Wire Line
+	3500 3000 3500 3300
+Wire Wire Line
+	6500 1800 6500 3300
+Wire Wire Line
+	6900 2200 6900 3300
+Wire Wire Line
+	7300 2600 7300 3300
+Wire Wire Line
+	7700 3000 7700 3300
+Wire Wire Line
+	4700 2400 4700 3300
+Wire Wire Line
+	5300 2700 5300 3300
+Wire Wire Line
+	8200 2400 8200 3300
+Wire Wire Line
+	8400 2700 8400 3300
+Text Label 2300 3300 3    60   ~ 0
+P1-LP
+Text Label 2700 3300 3    60   ~ 0
+P1-LK
+Text Label 3100 3300 3    60   ~ 0
+P2-LP
+Text Label 3500 3300 3    60   ~ 0
+P2-LK
+Text Label 4700 3300 3    60   ~ 0
+P1-RUN
+Text Label 5300 3300 3    60   ~ 0
+P2-RUN
+Text Label 6500 3300 3    60   ~ 0
+P1-LP
+Text Label 6900 3300 3    60   ~ 0
+P1-LK
+Text Label 7300 3300 3    60   ~ 0
+P2-LP
+Text Label 7700 3300 3    60   ~ 0
+P2-LK
+Text Label 8200 3300 3    60   ~ 0
+P2-RUN
+Text Label 8400 3300 3    60   ~ 0
+P1-RUN
+$EndSCHEMATC
