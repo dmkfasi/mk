@@ -28,7 +28,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:MainBoard-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -36,7 +35,7 @@ encoding utf-8
 Sheet 1 1
 Title "Multi Mortal Kombat Kick harness condenser"
 Date "2015-12-24"
-Rev "2"
+Rev "3"
 Comp ""
 Comment1 "Designed by dmkfasi"
 Comment2 "Licenced under CERN OHL v1.1"
@@ -118,28 +117,6 @@ F 1 "Mortal Kombat 4" V 7800 850 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x15" H 7700 850 50  0001 C CNN
 F 3 "" H 7700 850 50  0000 C CNN
 	1    7700 850 
-	0    -1   -1   0   
-$EndComp
-$Comp
-L D_Schottky_Small J6D6
-U 1 1 5679A5AE
-P 8200 2300
-F 0 "J6D6" H 8200 2200 50  0000 C CNN
-F 1 "P2RUN" H 8450 2200 50  0000 C CNN
-F 2 "Diodes_SMD:MiniMELF_Standard" V 8200 2300 50  0001 C CNN
-F 3 "" V 8200 2300 50  0000 C CNN
-	1    8200 2300
-	0    -1   -1   0   
-$EndComp
-$Comp
-L D_Schottky_Small J6D3
-U 1 1 5679A5B7
-P 8400 2600
-F 0 "J6D3" H 8400 2500 50  0000 C CNN
-F 1 "P1RUN" H 8650 2500 50  0000 C CNN
-F 2 "Diodes_SMD:MiniMELF_Standard" V 8400 2600 50  0001 C CNN
-F 3 "" V 8400 2600 50  0000 C CNN
-	1    8400 2600
 	0    -1   -1   0   
 $EndComp
 NoConn ~ 900  4850
@@ -411,11 +388,9 @@ Wire Wire Line
 Wire Wire Line
 	7800 1050 7800 1300
 Wire Wire Line
-	7800 1300 8400 1300
+	7800 1300 8300 1300
 Wire Wire Line
-	8400 1300 8400 2500
-Wire Wire Line
-	8200 1050 8200 2200
+	8200 1050 8200 1600
 Wire Wire Line
 	8100 1050 8100 2800
 Wire Wire Line
@@ -579,9 +554,9 @@ Wire Wire Line
 Wire Wire Line
 	5300 2700 5300 3300
 Wire Wire Line
-	8200 2400 8200 3300
+	9050 1800 9050 3250
 Wire Wire Line
-	8400 2700 8400 3300
+	8600 1500 8600 3250
 Text Label 2300 3300 3    60   ~ 0
 P1-LP
 Text Label 2700 3300 3    60   ~ 0
@@ -602,8 +577,34 @@ Text Label 7300 3300 3    60   ~ 0
 P2-LP
 Text Label 7700 3300 3    60   ~ 0
 P2-LK
-Text Label 8200 3300 3    60   ~ 0
+Text Label 9050 3250 3    60   ~ 0
 P2-RUN
-Text Label 8400 3300 3    60   ~ 0
+Text Label 8600 3250 3    60   ~ 0
 P1-RUN
+$Comp
+L D_Schottky_x2_KCom_AAK D15
+U 1 1 5885CECE
+P 8600 1300
+F 0 "D15" H 8650 1200 50  0000 C CNN
+F 1 "P1RUN" H 8600 1400 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 8600 1300 50  0001 C CNN
+F 3 "" H 8600 1300 50  0000 C CNN
+	1    8600 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Schottky_x2_KCom_AAK D16
+U 1 1 5885D23D
+P 9050 1600
+F 0 "D16" H 9100 1500 50  0000 C CNN
+F 1 "P2RUN" H 9050 1700 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 9050 1600 50  0001 C CNN
+F 3 "" H 9050 1600 50  0000 C CNN
+	1    9050 1600
+	1    0    0    -1  
+$EndComp
+NoConn ~ 9350 1600
+Wire Wire Line
+	8200 1600 8750 1600
+NoConn ~ 8900 1300
 $EndSCHEMATC
