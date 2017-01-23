@@ -2,7 +2,7 @@
 
   (general
     (links 56)
-    (no_connects 5)
+    (no_connects 0)
     (area 69.6058 94.85412 176.451429 151.287493)
     (thickness 1.6)
     (drawings 22)
@@ -79,7 +79,7 @@
       (hpglpenoverlay 2)
       (psnegative false)
       (psa4output false)
-      (plotreference true)
+      (plotreference false)
       (plotvalue false)
       (plotinvisibletext false)
       (padsonsilk false)
